@@ -1,0 +1,1490 @@
+Version identifier: 12.10.0.0 | 2019-11-26 | 843d4de
+CPXPARAM_Read_DataCheck                          1
+CPXPARAM_RandomSeed                              201903125
+CPXPARAM_TimeLimit                               7200
+CPXPARAM_Output_IntSolFilePrefix                 "solucoes/t_lazy_desig_triang_ID028M020J020_ZintTrue_minla_fav_ub0/sol"
+Lazy constraint(s) or lazy constraint/branch callback is present.
+    Disabling dual reductions (CPX_PARAM_REDUCE) in presolve.
+    Disabling non-linear reductions (CPX_PARAM_PRELINEAR) in presolve.
+    Disabling presolve reductions that prevent crushing forms.
+Tried aggregator 1 time.
+Reduced MIP has 8000 rows, 4201 columns, and 23600 nonzeros.
+Reduced MIP has 3800 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (5.77 ticks)
+Probing time = 0.00 sec. (1.33 ticks)
+Tried aggregator 1 time.
+Reduced MIP has 8000 rows, 4201 columns, and 23600 nonzeros.
+Reduced MIP has 3800 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (5.24 ticks)
+Probing time = 0.00 sec. (1.33 ticks)
+Problem contains 152800 lazy constraints.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 8 threads.
+Root relaxation solution time = 0.04 sec. (154.44 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+      0     0     1207.0000   343                   1207.0000     2136         
+*     0+    0                         2290.0000     1207.0000            47.29%
+New incumbent written to file 'solucoes/t_lazy_desig_triang_ID028M020J020_ZintTrue_minla_fav_ub0/sol-00001.sol'.
+      0     0     1229.7922   343     2290.0000     Cuts: 200     2488   46.30%
+*     0+    0                         2237.0000     1229.7922            45.02%
+New incumbent written to file 'solucoes/t_lazy_desig_triang_ID028M020J020_ZintTrue_minla_fav_ub0/sol-00002.sol'.
+      0     0     1252.0130   343     2237.0000    Cuts: 1174     3011   44.03%
+      0     0     1252.3501   343     2237.0000     Cuts: 798     3398   44.02%
+*     0+    0                         2221.0000     1252.3501            43.61%
+New incumbent written to file 'solucoes/t_lazy_desig_triang_ID028M020J020_ZintTrue_minla_fav_ub0/sol-00003.sol'.
+*     0+    0                         2193.0000     1252.3501            42.89%
+New incumbent written to file 'solucoes/t_lazy_desig_triang_ID028M020J020_ZintTrue_minla_fav_ub0/sol-00004.sol'.
+*     0+    0                         2188.0000     1252.3501            42.76%
+New incumbent written to file 'solucoes/t_lazy_desig_triang_ID028M020J020_ZintTrue_minla_fav_ub0/sol-00005.sol'.
+*     0+    0                         2113.0000     1252.3501            40.73%
+New incumbent written to file 'solucoes/t_lazy_desig_triang_ID028M020J020_ZintTrue_minla_fav_ub0/sol-00006.sol'.
+*     0+    0                         2073.0000     1252.3501            39.59%
+New incumbent written to file 'solucoes/t_lazy_desig_triang_ID028M020J020_ZintTrue_minla_fav_ub0/sol-00007.sol'.
+      0     0  -1.00000e+75     0     2073.0000     1252.3501     3398   39.59%
+      0     0     1252.3501   343     2073.0000     Cuts: 546     3621   39.59%
+      0     0     1252.3501   343     2073.0000     Cuts: 134     3822   39.59%
+      0     0     1252.3501   343     2073.0000    Cuts: 1275     4186   39.59%
+*     0+    0                         2069.0000     1252.3501            39.47%
+New incumbent written to file 'solucoes/t_lazy_desig_triang_ID028M020J020_ZintTrue_minla_fav_ub0/sol-00008.sol'.
+      0     2     1252.3501   252     2069.0000     1252.3501     4186   39.47%
+Elapsed time = 3.08 sec. (3419.23 ticks, tree = 0.02 MB, solutions = 8)
+*    64+    4                         2024.0000     1255.0000            37.99%
+New incumbent written to file 'solucoes/t_lazy_desig_triang_ID028M020J020_ZintTrue_minla_fav_ub0/sol-00009.sol'.
+     70    17     1379.0000   249     2024.0000     1255.0000     5861   37.99%
+    249   210     1305.0621   250     2024.0000     1264.3617    19552   37.53%
+    485   373     1425.0000   204     2024.0000     1264.3617    27181   37.53%
+    549   485     1363.0000   216     2024.0000     1264.3617    32367   37.53%
+    680   597     1329.0000   191     2024.0000     1264.3617    38107   37.53%
+    830   749     1449.7021   197     2024.0000     1264.3617    44564   37.53%
+    957   864     1579.0000   160     2024.0000     1264.3617    50910   37.53%
+   1170  1106     1611.0000   130     2024.0000     1264.3617    62057   37.53%
+   1437  1296     1477.0000   163     2024.0000     1264.3617    70494   37.53%
+
+Performing restart 1
+
+Repeating presolve.
+Tried aggregator 1 time.
+MIP Presolve eliminated 77 rows and 64 columns.
+MIP Presolve modified 21875 coefficients.
+Reduced MIP has 7923 rows, 4137 columns, and 23318 nonzeros.
+Reduced MIP has 3736 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.01 sec. (10.62 ticks)
+Tried aggregator 1 time.
+Reduced MIP has 7923 rows, 4137 columns, and 23318 nonzeros.
+Reduced MIP has 3736 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.01 sec. (7.11 ticks)
+Represolve time = 0.10 sec. (69.68 ticks)
+Problem contains 152800 lazy constraints.
+   1755     0     1255.1078   328     2024.0000    Cuts: 2080    88533   37.53%
+   1755     0     1262.3944   328     2024.0000    Cuts: 2080    88978   37.53%
+   1755     0     1264.3550   328     2024.0000    Cuts: 1043    89355   37.53%
+*  1755+    0                         2013.0000     1264.3617            37.19%
+New incumbent written to file 'solucoes/t_lazy_desig_triang_ID028M020J020_ZintTrue_minla_fav_ub0/sol-00010.sol'.
+*  1755+    0                         2008.0000     1264.3617            37.03%
+New incumbent written to file 'solucoes/t_lazy_desig_triang_ID028M020J020_ZintTrue_minla_fav_ub0/sol-00011.sol'.
+*  1755+    0                         1936.0000     1264.3617            34.69%
+New incumbent written to file 'solucoes/t_lazy_desig_triang_ID028M020J020_ZintTrue_minla_fav_ub0/sol-00012.sol'.
+*  1755+    0                         1935.0000     1264.3617            34.66%
+New incumbent written to file 'solucoes/t_lazy_desig_triang_ID028M020J020_ZintTrue_minla_fav_ub0/sol-00013.sol'.
+*  1755+    0                         1934.0000     1264.3617            34.62%
+New incumbent written to file 'solucoes/t_lazy_desig_triang_ID028M020J020_ZintTrue_minla_fav_ub0/sol-00014.sol'.
+   1755     0  -1.00000e+75     0     1934.0000     1264.3617    89355   34.62%
+   1755     0     1276.4522   328     1934.0000     Cuts: 987    90347   34.00%
+   1755     0     1276.9569   328     1934.0000    Cuts: 2080    90879   33.97%
+   1755     0     1276.9569   328     1934.0000    Cuts: 2080    91168   33.97%
+   1755     0     1276.9569   328     1934.0000     Cuts: 357    91392   33.97%
+   1755     0     1276.9569   328     1934.0000    Cuts: 1048    91795   33.97%
+   1755     0     1276.9569   328     1934.0000     Cuts: 225    92057   33.97%
+   1755     0     1276.9569   328     1934.0000    Cuts: 1769    92419   33.97%
+   1755     0     1276.9569   328     1934.0000     Cuts: 598    92731   33.97%
+   1755     0     1276.9569   328     1934.0000     Cuts: 675    93033   33.97%
+*  1755+    0                         1932.0000     1276.9569            33.90%
+New incumbent written to file 'solucoes/t_lazy_desig_triang_ID028M020J020_ZintTrue_minla_fav_ub0/sol-00015.sol'.
+   1755     0  -1.00000e+75     0     1932.0000     1276.9569    93033   33.90%
+   1755     2     1276.9569   269     1932.0000     1276.9569    93033   33.90%
+Elapsed time = 19.17 sec. (24819.84 ticks, tree = 0.02 MB, solutions = 16)
+   1767    12     1332.0000   255     1932.0000     1281.6546    94283   33.66%
+   1826    55     1348.0000   232     1932.0000     1281.6546    97797   33.66%
+   1940   167     1371.0000   272     1932.0000     1281.6546   106044   33.66%
+*  1946+    4                         1926.0000     1281.6546            33.46%
+New incumbent written to file 'solucoes/t_lazy_desig_triang_ID028M020J020_ZintTrue_minla_fav_ub0/sol-00016.sol'.
+*  1971+    7                         1925.0000     1281.6546            33.42%
+New incumbent written to file 'solucoes/t_lazy_desig_triang_ID028M020J020_ZintTrue_minla_fav_ub0/sol-00017.sol'.
+*  2036+    7                         1924.0000     1282.3247            33.35%
+New incumbent written to file 'solucoes/t_lazy_desig_triang_ID028M020J020_ZintTrue_minla_fav_ub0/sol-00018.sol'.
+   2212   377     1450.0000   233     1924.0000     1282.3247   119039   33.35%
+*  2215+    5                         1919.0000     1282.3247            33.18%
+New incumbent written to file 'solucoes/t_lazy_desig_triang_ID028M020J020_ZintTrue_minla_fav_ub0/sol-00019.sol'.
+*  2227+    5                         1918.0000     1282.3247            33.14%
+New incumbent written to file 'solucoes/t_lazy_desig_triang_ID028M020J020_ZintTrue_minla_fav_ub0/sol-00020.sol'.
+*  2239+    5                         1915.0000     1282.3247            33.04%
+New incumbent written to file 'solucoes/t_lazy_desig_triang_ID028M020J020_ZintTrue_minla_fav_ub0/sol-00021.sol'.
+   2689   692     1617.0000   143     1915.0000     1285.0000   135896   32.90%
+   3056  1017     1530.0000   189     1915.0000     1285.0000   151711   32.90%
+   3573  1354     1813.0000   118     1915.0000     1285.0000   166018   32.90%
+   4467  2391     1424.0000   230     1915.0000     1303.0244   204265   31.96%
+   5408  3098     1661.0000   158     1915.0000     1303.0244   240988   31.96%
+   6321  4089     1455.0000   234     1915.0000     1305.0000   271558   31.85%
+Elapsed time = 32.83 sec. (34435.74 ticks, tree = 10.86 MB, solutions = 24)
+   6947  4588     1549.5000   228     1915.0000     1305.0000   295309   31.85%
+   7506  5438     1600.2806   178     1915.0000     1307.8068   335846   31.71%
+   8477  5916     1445.0000   218     1915.0000     1311.0000   361893   31.54%
+   8870  6658     1456.0000   249     1915.0000     1311.0000   392471   31.54%
+   9607  7052     1336.8594   274     1915.0000     1311.0000   413162   31.54%
+  10528  8068     1687.6271   207     1915.0000     1311.0000   454438   31.54%
+* 10850+ 8402                         1912.0000     1311.0000            31.43%
+New incumbent written to file 'solucoes/t_lazy_desig_triang_ID028M020J020_ZintTrue_minla_fav_ub0/sol-00022.sol'.
+* 11045+ 8402                         1908.0000     1311.0000            31.29%
+New incumbent written to file 'solucoes/t_lazy_desig_triang_ID028M020J020_ZintTrue_minla_fav_ub0/sol-00023.sol'.
+* 11065+ 8402                         1906.0000     1311.0000            31.22%
+New incumbent written to file 'solucoes/t_lazy_desig_triang_ID028M020J020_ZintTrue_minla_fav_ub0/sol-00024.sol'.
+* 11081+ 8402                         1900.0000     1311.0000            31.00%
+New incumbent written to file 'solucoes/t_lazy_desig_triang_ID028M020J020_ZintTrue_minla_fav_ub0/sol-00025.sol'.
+* 11111+ 8402                         1893.0000     1311.0000            30.74%
+New incumbent written to file 'solucoes/t_lazy_desig_triang_ID028M020J020_ZintTrue_minla_fav_ub0/sol-00026.sol'.
+* 11119+ 8402                         1890.0000     1311.0000            30.63%
+New incumbent written to file 'solucoes/t_lazy_desig_triang_ID028M020J020_ZintTrue_minla_fav_ub0/sol-00027.sol'.
+* 11137+ 8402                         1885.0000     1311.0000            30.45%
+New incumbent written to file 'solucoes/t_lazy_desig_triang_ID028M020J020_ZintTrue_minla_fav_ub0/sol-00028.sol'.
+* 11167+ 8402                         1883.0000     1311.0000            30.38%
+New incumbent written to file 'solucoes/t_lazy_desig_triang_ID028M020J020_ZintTrue_minla_fav_ub0/sol-00029.sol'.
+  11305  8753     1805.0000   163     1883.0000     1311.0000   483559   30.38%
+  11675  9291     1801.0000   137     1883.0000     1311.0000   509519   30.38%
+  11787  9455     1370.2187   251     1883.0000     1311.0000   523545   30.38%
+  12478  9694     1718.0000   165     1883.0000     1311.0000   536898   30.38%
+Elapsed time = 47.54 sec. (44019.84 ticks, tree = 26.36 MB, solutions = 32)
+  13116 10336     1649.0000   206     1883.0000     1311.0000   566165   30.38%
+  14143 11093     1878.0000    53     1883.0000     1311.0000   602039   30.38%
+  14572 11990     1505.0000   243     1883.0000     1311.0000   648208   30.38%
+  15564 12186     1611.0000   208     1883.0000     1311.0000   657815   30.38%
+* 15582+12261                         1882.0000     1311.0000            30.34%
+New incumbent written to file 'solucoes/t_lazy_desig_triang_ID028M020J020_ZintTrue_minla_fav_ub0/sol-00030.sol'.
+* 15814 12490      integral     0     1881.0000     1311.0000   670943   30.30%
+New incumbent written to file 'solucoes/t_lazy_desig_triang_ID028M020J020_ZintTrue_minla_fav_ub0/sol-00031.sol'.
+  16362 13223     1876.0000   129     1881.0000     1311.0000   706624   30.30%
+* 16586+13421                         1880.0000     1311.0000            30.27%
+New incumbent written to file 'solucoes/t_lazy_desig_triang_ID028M020J020_ZintTrue_minla_fav_ub0/sol-00032.sol'.
+  17018 13666     1673.0000   160     1880.0000     1311.0000   729722   30.27%
+* 17166+13745                         1877.0000     1311.0000            30.15%
+New incumbent written to file 'solucoes/t_lazy_desig_triang_ID028M020J020_ZintTrue_minla_fav_ub0/sol-00033.sol'.
+* 17200+13745                         1876.0000     1311.0000            30.12%
+New incumbent written to file 'solucoes/t_lazy_desig_triang_ID028M020J020_ZintTrue_minla_fav_ub0/sol-00034.sol'.
+* 17346+13745                         1875.0000     1311.0000            30.08%
+New incumbent written to file 'solucoes/t_lazy_desig_triang_ID028M020J020_ZintTrue_minla_fav_ub0/sol-00035.sol'.
+* 17375+13745                         1874.0000     1311.0000            30.04%
+New incumbent written to file 'solucoes/t_lazy_desig_triang_ID028M020J020_ZintTrue_minla_fav_ub0/sol-00036.sol'.
+* 17391+13745                         1873.0000     1311.0000            30.01%
+New incumbent written to file 'solucoes/t_lazy_desig_triang_ID028M020J020_ZintTrue_minla_fav_ub0/sol-00037.sol'.
+* 17411+13745                         1864.0000     1311.0000            29.67%
+New incumbent written to file 'solucoes/t_lazy_desig_triang_ID028M020J020_ZintTrue_minla_fav_ub0/sol-00038.sol'.
+* 17529+13745                         1862.0000     1311.0000            29.59%
+New incumbent written to file 'solucoes/t_lazy_desig_triang_ID028M020J020_ZintTrue_minla_fav_ub0/sol-00039.sol'.
+* 17564+13745                         1859.0000     1311.0000            29.48%
+New incumbent written to file 'solucoes/t_lazy_desig_triang_ID028M020J020_ZintTrue_minla_fav_ub0/sol-00040.sol'.
+* 17580+13745                         1858.0000     1311.0000            29.44%
+New incumbent written to file 'solucoes/t_lazy_desig_triang_ID028M020J020_ZintTrue_minla_fav_ub0/sol-00041.sol'.
+  17756 14170     1799.0000   162     1858.0000     1311.0000   763233   29.44%
+* 18119+14187                         1855.0000     1311.0000            29.33%
+New incumbent written to file 'solucoes/t_lazy_desig_triang_ID028M020J020_ZintTrue_minla_fav_ub0/sol-00042.sol'.
+* 18128+14187                         1852.0000     1311.0000            29.21%
+New incumbent written to file 'solucoes/t_lazy_desig_triang_ID028M020J020_ZintTrue_minla_fav_ub0/sol-00043.sol'.
+  18364 14341     1786.0000   152     1852.0000     1311.0000   782849   29.21%
+  18652 14822     1648.0000   192     1852.0000     1311.0000   817716   29.21%
+* 19130+14971                         1850.0000     1311.0000            29.14%
+New incumbent written to file 'solucoes/t_lazy_desig_triang_ID028M020J020_ZintTrue_minla_fav_ub0/sol-00044.sol'.
+  19563 15068     1733.0000   191     1850.0000     1311.0000   831148   29.14%
+Elapsed time = 62.18 sec. (53625.46 ticks, tree = 39.87 MB, solutions = 57)
+* 20374+15526                         1849.0000     1311.0000            29.10%
+New incumbent written to file 'solucoes/t_lazy_desig_triang_ID028M020J020_ZintTrue_minla_fav_ub0/sol-00045.sol'.
+  20478 15870     1394.0000   265     1849.0000     1311.0000   873223   29.10%
+  20689 16662     1711.0000   204     1849.0000     1311.0000   912055   29.10%
+* 20874+16686                         1848.0000     1311.0000            29.06%
+New incumbent written to file 'solucoes/t_lazy_desig_triang_ID028M020J020_ZintTrue_minla_fav_ub0/sol-00046.sol'.
+* 20915+16587                         1848.0000     1311.0000            29.06%
+New incumbent written to file 'solucoes/t_lazy_desig_triang_ID028M020J020_ZintTrue_minla_fav_ub0/sol-00047.sol'.
+* 21033+16616                         1847.0000     1311.0000            29.02%
+New incumbent written to file 'solucoes/t_lazy_desig_triang_ID028M020J020_ZintTrue_minla_fav_ub0/sol-00048.sol'.
+* 21258+16768                         1846.0000     1311.0000            28.98%
+New incumbent written to file 'solucoes/t_lazy_desig_triang_ID028M020J020_ZintTrue_minla_fav_ub0/sol-00049.sol'.
+  21311 16754     1847.0000    54     1846.0000     1311.0000   920924   28.98%
+* 21408+16616                         1834.0000     1311.0000            28.52%
+New incumbent written to file 'solucoes/t_lazy_desig_triang_ID028M020J020_ZintTrue_minla_fav_ub0/sol-00050.sol'.
+* 21490+16616                         1822.0000     1311.0000            28.05%
+New incumbent written to file 'solucoes/t_lazy_desig_triang_ID028M020J020_ZintTrue_minla_fav_ub0/sol-00051.sol'.
+* 21513+16616                         1820.0000     1311.0000            27.97%
+New incumbent written to file 'solucoes/t_lazy_desig_triang_ID028M020J020_ZintTrue_minla_fav_ub0/sol-00052.sol'.
+* 21567+16616                         1818.0000     1311.0000            27.89%
+New incumbent written to file 'solucoes/t_lazy_desig_triang_ID028M020J020_ZintTrue_minla_fav_ub0/sol-00053.sol'.
+* 21608+16616                         1806.0000     1311.0000            27.41%
+New incumbent written to file 'solucoes/t_lazy_desig_triang_ID028M020J020_ZintTrue_minla_fav_ub0/sol-00054.sol'.
+* 21632+16616                         1804.0000     1311.0000            27.33%
+New incumbent written to file 'solucoes/t_lazy_desig_triang_ID028M020J020_ZintTrue_minla_fav_ub0/sol-00055.sol'.
+* 21649+16616                         1803.0000     1311.0000            27.29%
+New incumbent written to file 'solucoes/t_lazy_desig_triang_ID028M020J020_ZintTrue_minla_fav_ub0/sol-00056.sol'.
+* 21708+16616                         1796.0000     1311.0000            27.00%
+New incumbent written to file 'solucoes/t_lazy_desig_triang_ID028M020J020_ZintTrue_minla_fav_ub0/sol-00057.sol'.
+* 21856+16616                         1793.0000     1311.0000            26.88%
+New incumbent written to file 'solucoes/t_lazy_desig_triang_ID028M020J020_ZintTrue_minla_fav_ub0/sol-00058.sol'.
+* 21905+16616                         1792.0000     1311.0000            26.84%
+New incumbent written to file 'solucoes/t_lazy_desig_triang_ID028M020J020_ZintTrue_minla_fav_ub0/sol-00059.sol'.
+  21908 16929     1675.0000   240     1792.0000     1311.0000   943753   26.84%
+* 22290+14621                         1781.0000     1311.0000            26.39%
+New incumbent written to file 'solucoes/t_lazy_desig_triang_ID028M020J020_ZintTrue_minla_fav_ub0/sol-00060.sol'.
+* 22321+14621                         1770.0000     1311.0000            25.93%
+New incumbent written to file 'solucoes/t_lazy_desig_triang_ID028M020J020_ZintTrue_minla_fav_ub0/sol-00061.sol'.
+* 22328+14621                         1769.0000     1311.0000            25.89%
+New incumbent written to file 'solucoes/t_lazy_desig_triang_ID028M020J020_ZintTrue_minla_fav_ub0/sol-00062.sol'.
+  22452 13345     1641.0000   173     1769.0000     1311.0000   990568   25.89%
+  23178 13549     1601.0000   203     1769.0000     1311.0000  1005593   25.89%
+  23500 14170     1704.0000   166     1769.0000     1311.0000  1043779   25.89%
+  23714 14488     1474.0000   204     1769.0000     1311.2989  1065693   25.87%
+  23840 14682     1731.0000   129     1769.0000     1311.2989  1082741   25.87%
+  24672 14853     1321.8345   295     1769.0000     1311.2989  1096973   25.87%
+Elapsed time = 77.24 sec. (63177.13 ticks, tree = 39.64 MB, solutions = 84)
+  25584 15668     1695.0000   194     1769.0000     1311.2989  1149061   25.87%
+  26415 16201     1353.2564   279     1769.0000     1311.2989  1187067   25.87%
+  26764 16791     1675.0000   162     1769.0000     1311.2989  1221529   25.87%
+  27479 17376     1645.0144   187     1769.0000     1311.2989  1253306   25.87%
+  28517 17950     1654.0000   196     1769.0000     1311.3367  1287409   25.87%
+  28941 18316     1659.0000   188     1769.0000     1311.3367  1311437   25.87%
+  29271 19191     1544.6356   246     1769.0000     1311.3367  1367369   25.87%
+  30037 19653     1678.0000   150     1769.0000     1311.3367  1394113   25.87%
+  30719 20313     1687.0000   179     1769.0000     1312.3324  1436995   25.82%
+  31741 20913     1572.0000   212     1769.0000     1312.3324  1470946   25.82%
+Elapsed time = 91.93 sec. (72727.81 ticks, tree = 56.83 MB, solutions = 84)
+  32704 21453     1734.1333   140     1769.0000     1312.3484  1498181   25.81%
+  33477 21866     1457.8594   242     1769.0000     1313.0000  1521470   25.78%
+  33727 23076     1661.0000   157     1769.0000     1313.7546  1593521   25.73%
+  33740 23187     1616.0000   221     1769.0000     1314.0000  1599378   25.72%
+  34112 23349     1697.3333   186     1769.0000     1314.0000  1610788   25.72%
+  34509 23631     1583.5000   210     1769.0000     1314.0000  1631230   25.72%
+  34931 24055     1422.0000   274     1769.0000     1314.0000  1660237   25.72%
+  35446 24398     1702.0000   161     1769.0000     1314.0000  1684429   25.72%
+  35968 24816     1645.0000   205     1769.0000     1314.0000  1711799   25.72%
+  36446 24982     1327.9291   288     1769.0000     1314.0000  1726446   25.72%
+Elapsed time = 105.44 sec. (82312.48 ticks, tree = 68.27 MB, solutions = 84)
+  36649 25364     1381.0000   270     1769.0000     1314.0000  1750014   25.72%
+  36813 25762     1422.3237   280     1769.0000     1314.0000  1776560   25.72%
+  37000 25967     1601.0000   197     1769.0000     1314.0000  1790777   25.72%
+  37442 26027     1761.0000   142     1769.0000     1314.0000  1797003   25.72%
+  37998 26416     1613.0000   207     1769.0000     1314.0000  1822730   25.72%
+  38465 26778     1598.9333   203     1769.0000     1314.0000  1847412   25.72%
+  38800 26970     1598.0000   231     1769.0000     1314.0000  1858935   25.72%
+* 38831+22844                         1768.0000     1314.0000            25.68%
+New incumbent written to file 'solucoes/t_lazy_desig_triang_ID028M020J020_ZintTrue_minla_fav_ub0/sol-00063.sol'.
+  39037 27697     1475.0000   243     1768.0000     1314.0000  1911975   25.68%
+  39253 27777     1603.0000   190     1768.0000     1314.0000  1916421   25.68%
+* 39595+22721                         1767.0000     1314.0000            25.64%
+New incumbent written to file 'solucoes/t_lazy_desig_triang_ID028M020J020_ZintTrue_minla_fav_ub0/sol-00064.sol'.
+* 39603+22721                         1766.0000     1314.0000            25.59%
+New incumbent written to file 'solucoes/t_lazy_desig_triang_ID028M020J020_ZintTrue_minla_fav_ub0/sol-00065.sol'.
+  39670 27937     1314.8889   292     1766.0000     1314.0000  1927888   25.59%
+Elapsed time = 119.17 sec. (91884.20 ticks, tree = 75.74 MB, solutions = 84)
+  39918 28114     1322.5595   302     1766.0000     1314.0000  1940053   25.59%
+* 39965+22844                         1765.0000     1314.0000            25.55%
+New incumbent written to file 'solucoes/t_lazy_desig_triang_ID028M020J020_ZintTrue_minla_fav_ub0/sol-00066.sol'.
+* 40001+22606                         1762.0000     1314.0000            25.43%
+New incumbent written to file 'solucoes/t_lazy_desig_triang_ID028M020J020_ZintTrue_minla_fav_ub0/sol-00067.sol'.
+* 40005+22606                         1760.0000     1314.0000            25.34%
+New incumbent written to file 'solucoes/t_lazy_desig_triang_ID028M020J020_ZintTrue_minla_fav_ub0/sol-00068.sol'.
+  40042 28618     1381.0000   275     1760.0000     1314.0000  1969915   25.34%
+  40300 28621     1394.0000   251     1760.0000     1314.0000  1971957   25.34%
+* 40458+22721                         1758.0000     1314.0000            25.26%
+New incumbent written to file 'solucoes/t_lazy_desig_triang_ID028M020J020_ZintTrue_minla_fav_ub0/sol-00069.sol'.
+* 40603+22721                         1755.0000     1314.0000            25.13%
+New incumbent written to file 'solucoes/t_lazy_desig_triang_ID028M020J020_ZintTrue_minla_fav_ub0/sol-00070.sol'.
+  40779 28751     1607.5000   193     1755.0000     1314.0000  1979577   25.13%
+* 40968+22844                         1754.0000     1314.0000            25.09%
+New incumbent written to file 'solucoes/t_lazy_desig_triang_ID028M020J020_ZintTrue_minla_fav_ub0/sol-00071.sol'.
+  41190 29085     1423.0000   248     1754.0000     1314.0000  2004149   25.09%
+  41471 29587     1685.0000   191     1754.0000     1314.0000  2040424   25.09%
+  41870 29908     1316.0000   287     1754.0000     1314.0000  2064276   25.09%
+  42291 30049     1607.6000   206     1754.0000     1314.0000  2073395   25.09%
+  42577 30305     1764.0000    56     1754.0000     1314.0000  2091999   25.09%
+  42747 29245     1398.7778   254     1754.0000     1314.0000  2118118   25.09%
+Elapsed time = 132.59 sec. (101524.25 ticks, tree = 78.28 MB, solutions = 89)
+* 42756+22606                         1752.0000     1314.0000            25.00%
+New incumbent written to file 'solucoes/t_lazy_desig_triang_ID028M020J020_ZintTrue_minla_fav_ub0/sol-00072.sol'.
+  42798 29419     1626.0000   212     1752.0000     1314.0000  2133486   25.00%
+  43230 29506     1316.0000   264     1752.0000     1314.0000  2138991   25.00%
+  43767 29775     1454.5000   249     1752.0000     1314.0000  2159080   25.00%
+  44402 30286     1718.0000   143     1752.0000     1314.0000  2200853   25.00%
+  45117 30382     1564.0000   216     1752.0000     1314.0000  2208133   25.00%
+  45912 30733     1518.0000   224     1752.0000     1314.0000  2230886   25.00%
+  46433 31454     1472.0311   266     1752.0000     1314.0000  2284256   25.00%
+
+Performing restart 2
+
+Repeating presolve.
+Tried aggregator 1 time.
+MIP Presolve eliminated 168 rows and 142 columns.
+MIP Presolve modified 8321 coefficients.
+Reduced MIP has 7755 rows, 3995 columns, and 25036 nonzeros.
+Reduced MIP has 3594 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.01 sec. (8.85 ticks)
+Tried aggregator 1 time.
+MIP Presolve modified 5416 coefficients.
+Reduced MIP has 7755 rows, 3995 columns, and 25036 nonzeros.
+Reduced MIP has 3594 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.01 sec. (8.24 ticks)
+Represolve time = 0.18 sec. (114.37 ticks)
+Problem contains 152800 lazy constraints.
+  46463     0     1276.9569   371     1752.0000    Cuts: 1416  2352756   24.89%
+  46463     0     1276.9569   371     1752.0000     Cuts: 448  2353018   24.89%
+  46463     0     1276.9569   371     1752.0000     Cuts: 325  2353262   24.89%
+* 46463+    0                         1748.0000     1316.0000            24.71%
+New incumbent written to file 'solucoes/t_lazy_desig_triang_ID028M020J020_ZintTrue_minla_fav_ub0/sol-00073.sol'.
+  46463     0  -1.00000e+75     0     1748.0000     1316.0000  2353262   24.71%
+  46463     0     1276.9569   371     1748.0000     Cuts: 741  2353618   24.71%
+  46463     0     1276.9569   371     1748.0000     Cuts: 833  2353998   24.71%
+  46463     0     1276.9569   371     1748.0000     Cuts: 451  2354261   24.71%
+  46463     0     1276.9569   371     1748.0000    Cuts: 1548  2354625   24.71%
+  46463     0     1276.9569   371     1748.0000     Cuts: 540  2354898   24.71%
+  46463     0     1276.9569   371     1748.0000     Cuts: 959  2355324   24.71%
+  46463     0     1276.9569   371     1748.0000     Cuts: 724  2355631   24.71%
+  46463     0     1276.9569   371     1748.0000    Cuts: 1719  2356035   24.71%
+* 46463+    0                         1745.0000     1316.0000            24.58%
+New incumbent written to file 'solucoes/t_lazy_desig_triang_ID028M020J020_ZintTrue_minla_fav_ub0/sol-00074.sol'.
+  46463     0  -1.00000e+75     0     1745.0000     1316.0000  2356035   24.58%
+
+Repeating presolve.
+Tried aggregator 1 time.
+MIP Presolve eliminated 478 rows and 327 columns.
+MIP Presolve modified 16747 coefficients.
+Reduced MIP has 7277 rows, 3668 columns, and 23149 nonzeros.
+Reduced MIP has 3267 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.01 sec. (11.48 ticks)
+Tried aggregator 1 time.
+Reduced MIP has 7277 rows, 3668 columns, and 23149 nonzeros.
+Reduced MIP has 3267 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.01 sec. (6.90 ticks)
+Represolve time = 0.20 sec. (135.10 ticks)
+Problem contains 152800 lazy constraints.
+  46463     0     1276.9569   357     1745.0000    Cuts: 1919  2359006   24.58%
+  46463     0     1276.9569   357     1745.0000    Cuts: 1913  2359448   24.58%
+  46463     0     1276.9569   357     1745.0000     Cuts: 580  2359807   24.58%
+  46463     0     1276.9569   357     1745.0000    Cuts: 1417  2360193   24.58%
+  46463     0     1276.9569   357     1745.0000     Cuts: 241  2360428   24.58%
+  46463     0     1276.9569   357     1745.0000    Cuts: 1679  2360776   24.58%
+  46463     0     1276.9569   357     1745.0000     Cuts: 299  2361170   24.58%
+  46463     0     1276.9569   357     1745.0000    Cuts: 1081  2361448   24.58%
+  46463     0     1276.9569   357     1745.0000     Cuts: 164  2361675   24.58%
+  46463     0     1276.9569   357     1745.0000    Cuts: 1919  2362100   24.58%
+  46463     0     1276.9569   357     1745.0000     Cuts: 282  2362292   24.58%
+  46463     0     1276.9569   357     1745.0000    Cuts: 1919  2362737   24.58%
+  46463     2     1276.9569   256     1745.0000     1316.0000  2362737   24.58%
+  46488     5     1311.0000   253     1745.0000     1316.0000  2363066   24.58%
+  46925   402     1540.0000   198     1745.0000     1316.0000  2384685   24.58%
+Elapsed time = 169.21 sec. (145854.85 ticks, tree = 1.32 MB, solutions = 104)
+  47607   906     1357.0000   259     1745.0000     1316.0000  2406648   24.58%
+  48628  1890     1443.0000   225     1745.0000     1316.0000  2465403   24.58%
+  49742  2950     1509.0000   249     1745.0000     1316.0000  2539025   24.58%
+  50863  3908     1494.0000   229     1745.0000     1316.0000  2621106   24.58%
+  51942  5004     1496.0000   227     1745.0000     1316.0000  2708499   24.58%
+* 52625+ 5574                         1744.0000     1316.0000            24.54%
+New incumbent written to file 'solucoes/t_lazy_desig_triang_ID028M020J020_ZintTrue_minla_fav_ub0/sol-00075.sol'.
+* 52647+ 5720                         1743.0000     1316.0000            24.50%
+New incumbent written to file 'solucoes/t_lazy_desig_triang_ID028M020J020_ZintTrue_minla_fav_ub0/sol-00076.sol'.
+  53041  5995     1402.6641   281     1743.0000     1316.0000  2805848   24.50%
+  53899  6908     1466.0000   232     1743.0000     1316.0000  2887250   24.50%
+* 53966+ 6890                         1742.0000     1316.0000            24.45%
+New incumbent written to file 'solucoes/t_lazy_desig_triang_ID028M020J020_ZintTrue_minla_fav_ub0/sol-00077.sol'.
+  54770  7599     1621.0000   220     1742.0000     1316.0000  2939255   24.45%
+  55814  8375     1597.0000   177     1742.0000     1320.0000  3007604   24.23%
+  56797  9455     1617.0000   187     1742.0000     1321.6914  3130468   24.13%
+Elapsed time = 227.58 sec. (184019.69 ticks, tree = 23.83 MB, solutions = 107)
+  57821 10410     1418.6914   261     1742.0000     1321.9587  3233575   24.11%
+  58850 11391     1634.0000   170     1742.0000     1321.9587  3321364   24.11%
+  59891 12132     1468.4073   235     1742.0000     1322.1461  3394471   24.10%
+  60679 13081     1717.0000   109     1742.0000     1323.0778  3494752   24.05%
+  61691 13793     1646.0000   172     1742.0000     1323.9167  3563597   24.00%
+  62722 14550     1646.0000   130     1742.0000     1323.9167  3635659   24.00%
+  63614 15498     1470.1515   258     1742.0000     1323.9167  3729200   24.00%
+  64619 16629     1514.0000   212     1742.0000     1323.9167  3833595   24.00%
+  65627 17399     1490.0000   219     1742.0000     1323.9167  3904939   24.00%
+  66660 18343     1650.0000   206     1742.0000     1323.9167  3983457   24.00%
+Elapsed time = 285.36 sec. (222215.96 ticks, tree = 45.34 MB, solutions = 107)
+  67399 19233     1449.0000   269     1742.0000     1324.1039  4086590   23.99%
+  68351 19784     1548.2063   232     1742.0000     1324.1039  4133315   23.99%
+  69316 20692     1507.7328   237     1742.0000     1324.1377  4227332   23.99%
+  70269 21714     1667.0638   208     1742.0000     1324.2852  4336998   23.98%
+  71032 22497     1602.1515   191     1742.0000     1324.7204  4424145   23.95%
+  71934 23132     1601.7829   230     1742.0000     1324.7204  4494403   23.95%
+  72845 23677     1677.0000   182     1742.0000     1325.8357  4553206   23.89%
+  73790 24439     1538.0000   232     1742.0000     1325.9167  4646660   23.89%
+  74604 25414     1597.0000   183     1742.0000     1325.9167  4763891   23.89%
+  75362 26181     1588.0000   177     1742.0000     1325.9167  4837262   23.89%
+Elapsed time = 342.57 sec. (260398.42 ticks, tree = 64.71 MB, solutions = 107)
+  76148 27151     1455.3171   246     1742.0000     1325.9167  4960114   23.89%
+  76990 27522     1569.9542   218     1742.0000     1326.3171  5009055   23.86%
+  77879 28311     1571.0000   273     1742.0000     1326.3171  5095583   23.86%
+* 78189+28686                         1741.0000     1327.0000            23.78%
+New incumbent written to file 'solucoes/t_lazy_desig_triang_ID028M020J020_ZintTrue_minla_fav_ub0/sol-00078.sol'.
+* 78192+28686                         1738.0000     1327.0000            23.65%
+New incumbent written to file 'solucoes/t_lazy_desig_triang_ID028M020J020_ZintTrue_minla_fav_ub0/sol-00079.sol'.
+* 78198+28686                         1737.0000     1327.0000            23.60%
+New incumbent written to file 'solucoes/t_lazy_desig_triang_ID028M020J020_ZintTrue_minla_fav_ub0/sol-00080.sol'.
+* 78202+28686                         1735.0000     1327.0000            23.52%
+New incumbent written to file 'solucoes/t_lazy_desig_triang_ID028M020J020_ZintTrue_minla_fav_ub0/sol-00081.sol'.
+* 78208+28686                         1733.0000     1327.0000            23.43%
+New incumbent written to file 'solucoes/t_lazy_desig_triang_ID028M020J020_ZintTrue_minla_fav_ub0/sol-00082.sol'.
+  78546 28961     1354.9583   295     1733.0000     1327.0000  5170700   23.43%
+  79297 29247     1525.7303   257     1733.0000     1327.7010  5248829   23.39%
+  80140 30226     1612.0000   224     1733.0000     1327.9471  5403209   23.37%
+  81010 30631     1658.1850   189     1733.0000     1328.2001  5472784   23.36%
+  81842 31318     1726.0000   113     1733.0000     1328.4305  5580844   23.35%
+  82594 32389     1656.0000   183     1733.0000     1328.4305  5716439   23.35%
+  83466 33005     1515.0000   280     1733.0000     1328.4305  5796774   23.35%
+Elapsed time = 398.50 sec. (298599.06 ticks, tree = 82.68 MB, solutions = 112)
+  84410 33757     1671.0000   171     1733.0000     1329.0000  5900832   23.31%
+  85305 34469     1453.0000   267     1733.0000     1329.0000  5998887   23.31%
+  86019 35329     1692.0000   188     1733.0000     1329.0000  6109387   23.31%
+  86734 35959     1446.1489   310     1733.0000     1329.0000  6211786   23.31%
+  87630 36750     1494.0000   245     1733.0000     1329.0000  6320996   23.31%
+  88569 37577     1619.0000   254     1733.0000     1329.0000  6440529   23.31%
+  89476 38400     1356.7311   295     1733.0000     1329.0000  6541220   23.31%
+  90269 39089     1597.3913   179     1733.0000     1329.0000  6643903   23.31%
+  90899 40071     1621.9570   228     1733.0000     1329.0000  6795248   23.31%
+  91771 40749     1495.1515   271     1733.0000     1329.0000  6890317   23.31%
+Elapsed time = 454.47 sec. (336795.66 ticks, tree = 105.10 MB, solutions = 112)
+  92663 41451     1380.0000   300     1733.0000     1329.0000  7001427   23.31%
+  93581 41944    infeasible           1733.0000     1329.0000  7073269   23.31%
+  94401 42872     1647.0000   165     1733.0000     1329.0000  7203110   23.31%
+  95092 43838     1470.8983   236     1733.0000     1329.0000  7331645   23.31%
+  96050 44216     1533.0000   226     1733.0000     1329.0000  7381059   23.31%
+  97007 44990     1388.6144   301     1733.0000     1329.0000  7483338   23.31%
+  97871 45981     1603.0000   226     1733.0000     1329.3249  7617265   23.29%
+  98762 46536     1708.0000   169     1733.0000     1329.8889  7708727   23.26%
+  99436 47351     1559.1558   261     1733.0000     1329.9787  7825941   23.26%
+ 100261 48015     1597.0000   220     1733.0000     1330.2143  7929107   23.24%
+Elapsed time = 510.29 sec. (374993.38 ticks, tree = 123.69 MB, solutions = 112)
+ 101223 48882     1597.2389   225     1733.0000     1330.4642  8072408   23.23%
+ 102161 49713     1543.0000   228     1733.0000     1330.4642  8182237   23.23%
+ 103133 50393     1727.0000   203     1733.0000     1330.7778  8285774   23.21%
+ 103794 51293     1478.0000   274     1733.0000     1330.8116  8410628   23.21%
+ 104597 52013     1454.0937   274     1733.0000     1330.8794  8516731   23.20%
+ 105466 52556     1664.0000   162     1733.0000     1330.8794  8591310   23.20%
+ 106354 53918     1653.0000   186     1733.0000     1331.0000  8799746   23.20%
+ 107222 54299     1690.0000   192     1733.0000     1331.0000  8856369   23.20%
+ 107977 54881     1470.9542   233     1733.0000     1331.0000  8965654   23.20%
+ 108636 55558     1593.2517   223     1733.0000     1331.0000  9080389   23.20%
+Elapsed time = 566.60 sec. (413187.34 ticks, tree = 143.21 MB, solutions = 112)
+ 109458 56582     1528.5556   241     1733.0000     1331.0000  9231006   23.20%
+ 110307 56790     1573.3171   243     1733.0000     1331.6170  9255909   23.16%
+ 111092 57892     1622.0000   232     1733.0000     1331.6170  9439145   23.16%
+ 111855 58615     1534.3171   226     1733.0000     1331.6170  9562441   23.16%
+ 112554 58941     1400.0000   254     1733.0000     1331.6170  9614967   23.16%
+ 113121 59945     1461.0000   301     1733.0000     1332.0000  9782554   23.14%
+ 113823 60065     1429.0000   274     1733.0000     1332.0000  9809356   23.14%
+ 114562 60919     1722.0000   193     1733.0000     1332.0000  9955895   23.14%
+ 115191 61515     1640.0000   198     1733.0000     1332.0000 10052503   23.14%
+ 115805 62344     1365.0802   357     1733.0000     1332.0000 10212590   23.14%
+Elapsed time = 623.33 sec. (451397.31 ticks, tree = 162.48 MB, solutions = 112)
+ 116496 62880     1661.0000   220     1733.0000     1332.0000 10329451   23.14%
+ 117069 63372     1570.0000   245     1733.0000     1332.0000 10429387   23.14%
+ 117660 63804     1606.6439   180     1733.0000     1332.0000 10519109   23.14%
+ 118395 64292     1636.0000   217     1733.0000     1332.2078 10610042   23.13%
+ 119209 64805     1515.7722   222     1733.0000     1332.4426 10697817   23.11%
+ 119909 65334     1677.0000   212     1733.0000     1332.4426 10785888   23.11%
+ 120667 66328     1631.0000   265     1733.0000     1332.4426 10943673   23.11%
+ 121398 66960     1608.0000   251     1733.0000     1332.7531 11063493   23.10%
+ 122031 67683     1536.2497   232     1733.0000     1332.8889 11164375   23.09%
+ 122709 67940     1454.0000   329     1733.0000     1332.8889 11203481   23.09%
+Elapsed time = 680.45 sec. (489616.24 ticks, tree = 180.46 MB, solutions = 112)
+ 123496 68529     1428.8667   282     1733.0000     1332.8889 11290481   23.09%
+ 124354 69492     1546.0000   281     1733.0000     1332.8889 11458479   23.09%
+ 125165 70076     1728.0000   119     1733.0000     1332.8889 11541597   23.09%
+ 125904 71121     1648.0000   214     1733.0000     1333.1597 11703003   23.07%
+ 126590 71436     1650.0000   225     1733.0000     1333.7143 11761738   23.04%
+ 127102 72464     1572.0000   202     1733.0000     1333.7273 11947572   23.04%
+ 127705 72722     1442.3913   278     1733.0000     1333.7273 12010240   23.04%
+ 128444 73256     1459.5745   303     1733.0000     1333.7273 12108103   23.04%
+ 129201 73888     1541.0914   257     1733.0000     1333.7273 12210594   23.04%
+ 129877 74524     1425.4561   326     1733.0000     1333.8092 12336608   23.03%
+Elapsed time = 737.75 sec. (527803.06 ticks, tree = 198.15 MB, solutions = 112)
+ 130530 74852     1475.0000   242     1733.0000     1333.9394 12389438   23.03%
+ 131231 76012     1732.0000    62     1733.0000     1334.0000 12614817   23.02%
+ 131823 76055     1467.4765   327     1733.0000     1334.2078 12629744   23.01%
+ 132372 76981     1498.4454   271     1733.0000     1334.4468 12784217   23.00%
+ 133054 77141     1713.0000   146     1733.0000     1334.4564 12815822   23.00%
+ 133811 77681     1634.0000   211     1733.0000     1334.5556 12914269   22.99%
+ 134455 78512     1493.0000   235     1733.0000     1334.6027 13075407   22.99%
+ 135069 79083     1565.0000   253     1733.0000     1334.6027 13185650   22.99%
+ 135707 79908        cutoff           1733.0000     1335.0000 13382751   22.97%
+ 136365 80365     1568.0000   184     1733.0000     1335.0000 13484981   22.97%
+Elapsed time = 795.25 sec. (566000.50 ticks, tree = 214.10 MB, solutions = 112)
+ 136945 80516     1713.0000   147     1733.0000     1335.0000 13512010   22.97%
+ 137541 81072     1504.0000   274     1733.0000     1335.5532 13622193   22.93%
+ 138330 82155     1681.0000   193     1733.0000     1335.5532 13785619   22.93%
+ 139045 82776     1732.0000   177     1733.0000     1335.5532 13900662   22.93%
+ 139773 82860     1661.0000   165     1733.0000     1335.5532 13915489   22.93%
+ 140500 83786     1525.6329   321     1733.0000     1335.8572 14102037   22.92%
+ 141260 84604     1606.0000   189     1733.0000     1336.0000 14252561   22.91%
+ 141925 85383     1442.0000   292     1733.0000     1336.0000 14408298   22.91%
+ 142497 85444     1648.0000   174     1733.0000     1336.4561 14419829   22.88%
+ 143076 86293     1439.1757   312     1733.0000     1336.4561 14581544   22.88%
+Elapsed time = 854.19 sec. (604224.74 ticks, tree = 230.66 MB, solutions = 112)
+ 143800 86764     1633.0000   218     1733.0000     1336.4561 14657767   22.88%
+ 144545 87078     1399.4561   290     1733.0000     1336.4561 14721622   22.88%
+ 145266 88160     1496.0000   266     1733.0000     1336.4561 14903985   22.88%
+ 145834 88665     1504.0000   254     1733.0000     1336.4561 14998986   22.88%
+ 146527 89407     1682.0000   196     1733.0000     1336.4561 15151979   22.88%
+ 147177 89725     1527.0000   259     1733.0000     1336.4561 15219502   22.88%
+ 147724 90538     1633.9149   197     1733.0000     1336.4561 15357083   22.88%
+ 148324 90964     1528.3703   228     1733.0000     1336.4561 15441725   22.88%
+ 149022 91591     1410.0000   302     1733.0000     1336.4561 15552767   22.88%
+ 149754 92243     1653.7322   194     1733.0000     1336.4561 15669819   22.88%
+Elapsed time = 912.61 sec. (642406.58 ticks, tree = 247.20 MB, solutions = 112)
+ 150458 93024     1401.2650   332     1733.0000     1336.4561 15825811   22.88%
+ 151129 93027     1558.0000   238     1733.0000     1336.4561 15821641   22.88%
+ 151864 94168     1535.3842   260     1733.0000     1336.4561 16043238   22.88%
+ 152487 94239     1431.7252   295     1733.0000     1336.4561 16058664   22.88%
+ 153014 95086     1586.0000   249     1733.0000     1336.7710 16235940   22.86%
+ 153647 95565     1548.8149   249     1733.0000     1336.7710 16330632   22.86%
+ 154388 95937     1633.0000   213     1733.0000     1336.7710 16414077   22.86%
+ 155048 96451     1402.9677   339     1733.0000     1336.7710 16485386   22.86%
+ 155652 97394     1440.6641   314     1733.0000     1336.8889 16675015   22.86%
+ 156295 98012     1365.4753   406     1733.0000     1336.8889 16813017   22.86%
+Elapsed time = 970.90 sec. (680593.95 ticks, tree = 263.50 MB, solutions = 112)
+ 156943 98499        cutoff           1733.0000     1336.8980 16903724   22.86%
+ 157610 98930     1363.4103   357     1733.0000     1336.8980 16994881   22.86%
+ 158173 99346     1644.0000   171     1733.0000     1336.8980 17084452   22.86%
+ 158697 99905     1661.0000   194     1733.0000     1337.0000 17194728   22.85%
+ 159366 100567     1722.0000   226     1733.0000     1337.0000 17314446   22.85%
+ 160057 101338     1616.2807   203     1733.0000     1337.0000 17459280   22.85%
+ 160681 101508     1537.0000   309     1733.0000     1337.0000 17492514   22.85%
+ 161349 102429     1676.0000   206     1733.0000     1337.0000 17701725   22.85%
+ 162104 103229     1681.5809   141     1733.0000     1337.0000 17855796   22.85%
+ 162809 103813     1356.4444   344     1733.0000     1337.0000 17957771   22.85%
+Elapsed time = 1029.74 sec. (718812.40 ticks, tree = 279.70 MB, solutions = 112)
+ 163524 104117        cutoff           1733.0000     1337.0000 18005949   22.85%
+ 164126 104744     1703.0000   209     1733.0000     1337.0000 18123840   22.85%
+ 164662 105347     1575.0000   213     1733.0000     1337.0000 18244421   22.85%
+ 165357 105713     1696.0000   180     1733.0000     1337.1418 18312206   22.84%
+ 166040 106790     1600.7460   263     1733.0000     1337.1418 18495403   22.84%
+ 166790 106871     1732.0000   193     1733.0000     1337.1418 18511408   22.84%
+ 167495 108009     1620.0000   213     1733.0000     1337.1418 18723698   22.84%
+ 168226 108537     1577.0000   248     1733.0000     1337.1418 18827937   22.84%
+ 168882 109008     1520.0000   258     1733.0000     1337.1418 18916565   22.84%
+ 169582 109934        cutoff           1733.0000     1337.3362 19099776   22.83%
+Elapsed time = 1088.03 sec. (757016.83 ticks, tree = 297.88 MB, solutions = 112)
+ 170217 109995        cutoff           1733.0000     1337.3362 19117567   22.83%
+ 170790 110968     1425.3651   297     1733.0000     1337.5416 19320608   22.82%
+ 171492 111428     1444.0000   289     1733.0000     1337.5416 19391630   22.82%
+ 172164 111743     1494.0000   266     1733.0000     1337.5416 19446037   22.82%
+ 172931 112505     1651.0000   138     1733.0000     1337.5957 19570704   22.82%
+ 173537 112777     1574.0000   222     1733.0000     1337.6667 19623692   22.81%
+*173895+113355                         1731.0000     1337.7230            22.72%
+New incumbent written to file 'solucoes/t_lazy_desig_triang_ID028M020J020_ZintTrue_minla_fav_ub0/sol-00083.sol'.
+ 174239 113819     1495.4852   264     1731.0000     1337.7230 19814815   22.72%
+ 174838 113503     1548.0000   259     1731.0000     1337.8086 19878992   22.71%
+ 175554 114211     1625.4655   255     1731.0000     1337.8239 20010564   22.71%
+ 176225 115070     1451.0000   269     1731.0000     1337.8665 20167758   22.71%
+Elapsed time = 1146.57 sec. (795195.27 ticks, tree = 312.59 MB, solutions = 113)
+*176769+115221                         1729.0000     1337.8935            22.62%
+New incumbent written to file 'solucoes/t_lazy_desig_triang_ID028M020J020_ZintTrue_minla_fav_ub0/sol-00084.sol'.
+ 176841 115674     1382.5979   289     1729.0000     1337.9082 20272506   22.62%
+ 177399 115774     1486.1598   319     1729.0000     1337.9394 20356489   22.62%
+ 178011 116185     1524.1600   332     1729.0000     1338.1277 20442783   22.61%
+ 178716 116870     1541.7722   308     1729.0000     1338.1277 20571258   22.61%
+ 179451 117103     1673.0000   204     1729.0000     1338.1277 20632762   22.61%
+ 180187 117329     1621.6018   223     1729.0000     1338.1277 20680889   22.61%
+ 180889 118297     1713.0000   163     1729.0000     1338.2997 20860833   22.60%
+*181565+119429                         1725.0000     1338.2997            22.42%
+New incumbent written to file 'solucoes/t_lazy_desig_triang_ID028M020J020_ZintTrue_minla_fav_ub0/sol-00085.sol'.
+ 181570 119164     1441.0000   311     1725.0000     1338.2997 20983762   22.42%
+ 182294 119429     1338.5482   343     1725.0000     1338.2997 21036570   22.42%
+ 182972 119443     1680.0000   235     1725.0000     1338.4275 21231280   22.41%
+Elapsed time = 1205.11 sec. (833407.89 ticks, tree = 325.13 MB, solutions = 115)
+ 183558 119677     1583.0000   223     1725.0000     1338.5339 21283148   22.40%
+*183765+119770                         1724.0000     1338.5339            22.36%
+New incumbent written to file 'solucoes/t_lazy_desig_triang_ID028M020J020_ZintTrue_minla_fav_ub0/sol-00086.sol'.
+*183766+119770                         1723.0000     1338.5339            22.31%
+New incumbent written to file 'solucoes/t_lazy_desig_triang_ID028M020J020_ZintTrue_minla_fav_ub0/sol-00087.sol'.
+*183771+119770                         1721.0000     1338.5339            22.22%
+New incumbent written to file 'solucoes/t_lazy_desig_triang_ID028M020J020_ZintTrue_minla_fav_ub0/sol-00088.sol'.
+ 184121 119829        cutoff           1721.0000     1338.5339 21450368   22.22%
+ 184778 119981     1678.0000   189     1721.0000     1338.6267 21497203   22.22%
+ 185393 120983     1489.0000   262     1721.0000     1338.7143 21670241   22.21%
+ 186098 121451     1682.0094   210     1721.0000     1338.8178 21793182   22.21%
+ 186599 121908     1604.0000   218     1721.0000     1338.9272 21874182   22.20%
+ 187176 122310     1718.0000   158     1721.0000     1339.0796 21982422   22.19%
+ 187735 122966     1619.0000   200     1721.0000     1339.1009 22121937   22.19%
+ 188412 123291     1626.0000   238     1721.0000     1339.2351 22192319   22.18%
+ 189025 123531     1692.0000   191     1721.0000     1339.2906 22267948   22.18%
+Elapsed time = 1263.80 sec. (871602.27 ticks, tree = 336.93 MB, solutions = 118)
+ 189542 123920     1528.0000   274     1721.0000     1339.2906 22330954   22.18%
+ 189985 124472     1500.0000   232     1721.0000     1339.3171 22465610   22.18%
+ 190523 125375     1645.0000   195     1721.0000     1339.4413 22648713   22.17%
+ 191184 125703     1692.0000   197     1721.0000     1339.4413 22734980   22.17%
+ 191801 126519     1652.0000   199     1721.0000     1339.5378 22903093   22.17%
+ 192346 127170     1514.0000   257     1721.0000     1339.6777 23074284   22.16%
+ 192926 127542     1391.2544   332     1721.0000     1339.7238 23153297   22.15%
+ 193489 127616     1474.6850   278     1721.0000     1339.7956 23167561   22.15%
+ 194046 128593     1676.0000   152     1721.0000     1339.8085 23411955   22.15%
+ 194622 128501     1635.8298   233     1721.0000     1339.8085 23380596   22.15%
+Elapsed time = 1324.16 sec. (909822.25 ticks, tree = 351.18 MB, solutions = 118)
+ 195173 129034     1673.2609   178     1721.0000     1340.0000 23516657   22.14%
+ 195579 129539     1693.0000   164     1721.0000     1340.0000 23637808   22.14%
+ 195912 130204     1570.0000   254     1721.0000     1340.0000 23841525   22.14%
+ 196394 130447     1374.8664   340     1721.0000     1340.0000 23912852   22.14%
+ 196960 130703     1539.9000   266     1721.0000     1340.0000 23986928   22.14%
+ 197475 131460     1357.8560   431     1721.0000     1340.0000 24187441   22.14%
+ 197957 131787     1529.0000   288     1721.0000     1340.0000 24289175   22.14%
+ 198521 132016     1522.0000   349     1721.0000     1340.0053 24341536   22.14%
+ 199134 132683     1511.0000   252     1721.0000     1340.0857 24505541   22.13%
+ 199756 133234     1448.2340   326     1721.0000     1340.0857 24649636   22.13%
+Elapsed time = 1386.17 sec. (948024.22 ticks, tree = 368.37 MB, solutions = 118)
+ 200363 133423     1555.0000   266     1721.0000     1340.0857 24682856   22.13%
+ 200859 134237     1470.0000   328     1721.0000     1340.0984 24850437   22.13%
+ 201335 134554     1574.9783   277     1721.0000     1340.2773 24920405   22.12%
+ 201713 135226     1554.0000   233     1721.0000     1340.3171 25097686   22.12%
+ 202154 135507     1503.0000   274     1721.0000     1340.3171 25188210   22.12%
+ 202674 136029     1547.9344   263     1721.0000     1340.3171 25351806   22.12%
+ 203240 136245     1603.0000   206     1721.0000     1340.3171 25408768   22.12%
+ 203783 136737     1448.5217   344     1721.0000     1340.3171 25532655   22.12%
+ 204250 137244     1658.0000   241     1721.0000     1340.3171 25641839   22.12%
+ 204785 137646     1631.0000   181     1721.0000     1340.6355 25739787   22.10%
+Elapsed time = 1448.54 sec. (986235.40 ticks, tree = 382.54 MB, solutions = 118)
+ 205363 138265     1466.5109   267     1721.0000     1340.9082 25924021   22.09%
+ 205904 138215     1701.0000   139     1721.0000     1341.1338 25919853   22.07%
+ 206453 138905     1711.0000   215     1721.0000     1341.4246 26079924   22.06%
+ 206990 139539     1675.0000   188     1721.0000     1341.4561 26239197   22.05%
+ 207440 140198     1345.4483   390     1721.0000     1341.4561 26379573   22.05%
+ 207942 140256     1594.4246   259     1721.0000     1341.4561 26392030   22.05%
+ 208562 141013     1510.1949   273     1721.0000     1341.4561 26559331   22.05%
+ 209200 140974     1612.3171   249     1721.0000     1341.5264 26555319   22.05%
+ 209800 141794     1438.3171   361     1721.0000     1341.7004 26740859   22.04%
+ 210309 142373     1510.0000   259     1721.0000     1341.7405 26859804   22.04%
+Elapsed time = 1510.06 sec. (1024433.13 ticks, tree = 396.78 MB, solutions = 118)
+ 210851 143124     1361.2337   361     1721.0000     1341.7405 27032219   22.04%
+ 211394 143474     1438.0000   354     1721.0000     1341.9701 27126096   22.02%
+ 211939 143924     1565.3171   282     1721.0000     1341.9701 27217584   22.02%
+ 212452 144178     1412.0000   317     1721.0000     1341.9787 27264829   22.02%
+ 212962 144697     1714.0000   153     1721.0000     1342.0000 27424942   22.02%
+ 213334 145112     1546.0000   276     1721.0000     1342.0000 27519003   22.02%
+ 213803 145599     1604.0000   258     1721.0000     1342.0000 27677888   22.02%
+ 214309 145914     1551.9631   269     1721.0000     1342.0000 27739909   22.02%
+ 214876 146504     1418.0000   330     1721.0000     1342.0000 27874119   22.02%
+ 215374 146923     1412.7352   281     1721.0000     1342.0000 28008047   22.02%
+Elapsed time = 1572.62 sec. (1062636.16 ticks, tree = 410.42 MB, solutions = 118)
+ 215861 147425     1368.3636   335     1721.0000     1342.0000 28146249   22.02%
+ 216218 147611     1631.0000   207     1721.0000     1342.0000 28196595   22.02%
+ 216429 147789     1480.2609   323     1721.0000     1342.0000 28242378   22.02%
+ 216711 148456     1681.2405   238     1721.0000     1342.0000 28442033   22.02%
+ 217209 148547     1559.6228   268     1721.0000     1342.1598 28451387   22.01%
+ 217765 148819     1549.0000   247     1721.0000     1342.1598 28526763   22.01%
+ 218336 149406     1688.0000   123     1721.0000     1342.1598 28661878   22.01%
+ 218866 149635     1604.0000   215     1721.0000     1342.2544 28727493   22.01%
+ 219231 150096     1616.3346   242     1721.0000     1342.3020 28849301   22.00%
+ 219681 150605     1517.9394   277     1721.0000     1342.3171 28951370   22.00%
+Elapsed time = 1636.61 sec. (1100920.61 ticks, tree = 421.24 MB, solutions = 118)
+ 220247 150893     1691.0000   249     1721.0000     1342.3223 29052223   22.00%
+ 220827 151310     1568.9231   217     1721.0000     1342.3223 29149746   22.00%
+ 221313 152173     1584.0000   258     1721.0000     1342.3223 29362409   22.00%
+ 221817 152177     1481.0000   353     1721.0000     1342.3278 29349529   22.00%
+ 222057 152574     1557.8667   276     1721.0000     1342.3278 29447354   22.00%
+ 222327 153283     1582.4426   284     1721.0000     1342.3362 29650745   22.00%
+ 222762 153482     1658.0000   217     1721.0000     1342.3362 29691708   22.00%
+ 223216 153602     1660.0000   193     1721.0000     1342.3362 29723664   22.00%
+ 223673 153922     1488.0000   305     1721.0000     1342.5549 29798202   21.99%
+ 224158 154455     1349.5654   402     1721.0000     1342.5882 29985627   21.99%
+Elapsed time = 1699.84 sec. (1139210.17 ticks, tree = 432.95 MB, solutions = 118)
+ 224575 154773     1565.0000   277     1721.0000     1342.5882 30063096   21.99%
+ 224891 155488     1696.0000   192     1721.0000     1342.5882 30295474   21.99%
+ 225208 155578        cutoff           1721.0000     1342.5882 30332048   21.99%
+ 225504 155760     1423.3050   375     1721.0000     1342.5882 30390838   21.99%
+ 225668 156166     1684.5610   167     1721.0000     1342.5882 30524131   21.99%
+ 225937 156409     1599.0000   249     1721.0000     1342.5882 30602225   21.99%
+ 226371 156686        cutoff           1721.0000     1342.5882 30711948   21.99%
+ 226872 156722     1415.6384   313     1721.0000     1342.5882 30726141   21.99%
+ 227322 157320        cutoff           1721.0000     1342.5882 30917852   21.99%
+ 227729 157427     1640.0000   214     1721.0000     1342.6838 30953596   21.98%
+Elapsed time = 1765.40 sec. (1177450.25 ticks, tree = 442.14 MB, solutions = 118)
+ 228190 158015     1476.0000   243     1721.0000     1342.8026 31120093   21.98%
+ 228522 158271     1498.0000   261     1721.0000     1342.8390 31224297   21.97%
+ 228751 158480     1475.0000   308     1721.0000     1342.8390 31273759   21.97%
+ 228992 159048     1426.7545   373     1721.0000     1342.8390 31435592   21.97%
+ 229396 159169     1714.5929   152     1721.0000     1342.8390 31460306   21.97%
+ 229792 159228     1588.0000   240     1721.0000     1342.8889 31468976   21.97%
+ 230206 159915     1599.0000   231     1721.0000     1342.8966 31677747   21.97%
+ 230604 160297     1442.0000   271     1721.0000     1342.8966 31795584   21.97%
+ 231031 160754     1342.9143   423     1721.0000     1342.8966 31908848   21.97%
+ 231544 161056     1645.0000   263     1721.0000     1342.9143 32032356   21.97%
+Elapsed time = 1830.97 sec. (1215686.19 ticks, tree = 455.60 MB, solutions = 118)
+ 232004 161477     1377.7286   371     1721.0000     1342.9143 32148250   21.97%
+ 232478 161440     1546.8103   226     1721.0000     1342.9143 32137971   21.97%
+ 232790 161874     1650.0000   195     1721.0000     1342.9143 32272446   21.97%
+ 232968 162603     1519.0000   293     1721.0000     1342.9143 32486028   21.97%
+ 233217 162740     1582.0000   246     1721.0000     1342.9143 32532283   21.97%
+ 233597 162765     1694.0000   200     1721.0000     1343.1111 32540391   21.96%
+ 234111 163102     1620.8639   194     1721.0000     1343.1146 32635225   21.96%
+ 234612 163357     1708.0000   187     1721.0000     1343.1463 32721908   21.96%
+ 235058 163668     1591.0000   231     1721.0000     1343.2353 32803577   21.95%
+ 235372 164433        cutoff           1721.0000     1343.2353 33002712   21.95%
+Elapsed time = 1895.68 sec. (1253968.27 ticks, tree = 466.11 MB, solutions = 118)
+ 235677 164548     1493.9844   277     1721.0000     1343.2553 33040736   21.95%
+ 236115 165163     1673.0000   198     1721.0000     1343.2553 33235837   21.95%
+ 236593 165028     1720.0000   158     1721.0000     1343.4475 33200827   21.94%
+ 236980 165588     1626.3657   297     1721.0000     1343.4765 33382011   21.94%
+ 237142 165795     1524.3137   315     1721.0000     1343.4765 33448289   21.94%
+ 237335 166306     1507.6018   324     1721.0000     1343.4765 33596437   21.94%
+ 237733 166392     1393.8387   409     1721.0000     1343.6643 33633630   21.93%
+ 238158 166447     1546.3650   257     1721.0000     1343.7415 33650098   21.92%
+ 238603 166956     1710.0000   192     1721.0000     1343.8315 33791333   21.92%
+ 239093 167265     1525.0000   267     1721.0000     1343.9078 33873890   21.91%
+Elapsed time = 1960.62 sec. (1292189.37 ticks, tree = 474.90 MB, solutions = 118)
+ 239619 167959        cutoff           1721.0000     1343.9748 34083129   21.91%
+ 240087 168013     1614.0000   237     1721.0000     1343.9748 34096870   21.91%
+ 240544 168574     1442.0263   311     1721.0000     1343.9748 34265394   21.91%
+ 240949 169046     1488.1560   306     1721.0000     1343.9748 34382852   21.91%
+ 241295 169151     1697.0000   234     1721.0000     1344.0000 34415661   21.91%
+ 241434 169816     1601.0000   263     1721.0000     1344.0000 34619047   21.91%
+ 241632 170052     1458.6082   343     1721.0000     1344.0000 34694880   21.91%
+ 242036 170143     1548.0994   279     1721.0000     1344.0000 34713454   21.91%
+ 242464 170191     1713.0000   147     1721.0000     1344.0000 34736268   21.91%
+ 242978 170497     1564.0000   256     1721.0000     1344.0000 34817390   21.91%
+Elapsed time = 2026.37 sec. (1330413.37 ticks, tree = 485.59 MB, solutions = 118)
+ 243506 171320     1709.0000   176     1721.0000     1344.0000 35068830   21.91%
+ 243941 171345     1557.7693   296     1721.0000     1344.0000 35082292   21.91%
+ 244404 171662     1452.6305   332     1721.0000     1344.0000 35172821   21.91%
+ 244819 172126     1360.8436   440     1721.0000     1344.0000 35309076   21.91%
+ 245238 172619     1651.0000   225     1721.0000     1344.0000 35438216   21.91%
+ 245566 173207     1662.0000   235     1721.0000     1344.0000 35622375   21.91%
+ 245729 173134     1561.0000   231     1721.0000     1344.0000 35594946   21.91%
+ 245868 173623     1627.0000   220     1721.0000     1344.0000 35755558   21.91%
+ 246111 173791     1471.0000   297     1721.0000     1344.0000 35809507   21.91%
+ 246464 174049     1605.9497   265     1721.0000     1344.0000 35897280   21.91%
+Elapsed time = 2092.58 sec. (1368674.22 ticks, tree = 496.64 MB, solutions = 118)
+ 246862 174293     1711.0000   177     1721.0000     1344.3900 35958059   21.88%
+ 247329 174590     1434.0399   319     1721.0000     1344.4759 36102775   21.88%
+ 247834 174663     1578.2742   262     1721.0000     1344.5410 36119415   21.87%
+ 248301 174989     1572.7523   273     1721.0000     1344.5429 36217718   21.87%
+ 248735 175265     1423.0702   379     1721.0000     1344.5429 36316515   21.87%
+ 249117 175827     1719.0000   139     1721.0000     1344.5429 36480169   21.87%
+ 249348 176140     1418.6080   330     1721.0000     1344.5429 36590480   21.87%
+ 249511 176599     1589.4937   245     1721.0000     1344.6341 36733202   21.87%
+ 249803 176997     1618.0000   222     1721.0000     1344.7079 36861830   21.86%
+ 250272 177006     1469.0000   339     1721.0000     1344.7176 36874977   21.86%
+Elapsed time = 2159.08 sec. (1406911.84 ticks, tree = 506.01 MB, solutions = 118)
+ 250677 177113     1488.6291   245     1721.0000     1344.7176 36888623   21.86%
+ 251189 177805     1636.0000   156     1721.0000     1344.8737 37071152   21.86%
+ 251687 177969     1590.6329   322     1721.0000     1344.9427 37146397   21.85%
+ 252148 178435     1470.0000   329     1721.0000     1345.0000 37296624   21.85%
+ 252545 178667     1665.0000   213     1721.0000     1345.0000 37322883   21.85%
+ 252915 179695     1620.9900   207     1721.0000     1345.0000 37625392   21.85%
+ 253373 179526     1630.0000   160     1721.0000     1345.0000 37559983   21.85%
+ 253810 179963     1720.0000    22     1721.0000     1345.0000 37715983   21.85%
+*253851 179941      integral     0     1720.0000     1345.0000 37716244   21.80%
+New incumbent written to file 'solucoes/t_lazy_desig_triang_ID028M020J020_ZintTrue_minla_fav_ub0/sol-00089.sol'.
+ 254059 180078     1373.0000   306     1720.0000     1345.0000 37742193   21.80%
+ 254211 180074     1689.0000   194     1720.0000     1345.0000 37865163   21.80%
+Elapsed time = 2226.95 sec. (1445128.97 ticks, tree = 515.77 MB, solutions = 119)
+ 254441 180599     1429.6834   383     1720.0000     1345.0000 38042108   21.80%
+ 254844 180666     1610.0000   233     1720.0000     1345.0000 38054975   21.80%
+ 255309 180720     1563.0000   250     1720.0000     1345.0000 38068288   21.80%
+ 255865 181002     1641.0000   209     1720.0000     1345.0000 38147235   21.80%
+ 256358 181923     1500.3346   342     1720.0000     1345.0000 38409430   21.80%
+ 256825 181804     1580.3504   225     1720.0000     1345.0000 38369353   21.80%
+ 257337 182811     1407.6541   324     1720.0000     1345.0000 38647622   21.80%
+ 257816 183177     1632.0000   223     1720.0000     1345.0000 38779464   21.80%
+ 258189 183043     1532.0000   259     1720.0000     1345.2291 38733531   21.79%
+ 258530 183806     1647.0000   195     1720.0000     1345.2561 38928483   21.79%
+Elapsed time = 2291.37 sec. (1483338.27 ticks, tree = 527.45 MB, solutions = 119)
+ 258647 184332     1381.6105   339     1720.0000     1345.3121 39087782   21.78%
+ 258834 184324     1550.7857   261     1720.0000     1345.3121 39085050   21.78%
+ 259295 184645        cutoff           1720.0000     1345.4000 39202714   21.78%
+ 259770 184872     1437.5285   304     1720.0000     1345.4000 39266330   21.78%
+ 260298 185019     1711.0000   102     1720.0000     1345.4005 39312542   21.78%
+ 260757 185202     1693.0000   183     1720.0000     1345.4005 39356416   21.78%
+ 261239 186054     1443.1667   286     1720.0000     1345.5245 39590991   21.77%
+ 261701 185890        cutoff           1720.0000     1345.5281 39550236   21.77%
+ 262018 186672     1464.7473   331     1720.0000     1345.6639 39794511   21.76%
+ 262238 187132        cutoff           1720.0000     1345.6829 39948148   21.76%
+Elapsed time = 2357.14 sec. (1521585.72 ticks, tree = 537.88 MB, solutions = 119)
+ 262388 187531     1591.0000   241     1720.0000     1345.6853 40108245   21.76%
+ 262602 187603     1460.0000   328     1720.0000     1345.6853 40146328   21.76%
+ 262927 187802     1620.0000   226     1720.0000     1345.8009 40199264   21.76%
+ 263392 187869     1524.0000   286     1720.0000     1345.8009 40247951   21.76%
+ 263815 188146     1673.0000   175     1720.0000     1345.8009 40309400   21.76%
+ 264141 188194     1524.0000   272     1720.0000     1345.8009 40328809   21.76%
+ 264500 188845        cutoff           1720.0000     1345.8009 40550346   21.76%
+ 264878 188962     1574.1282   251     1720.0000     1345.9059 40587668   21.75%
+ 265370 189496     1554.0000   280     1720.0000     1346.0000 40767795   21.74%
+ 265886 189842     1403.6857   370     1720.0000     1346.0000 40857015   21.74%
+Elapsed time = 2424.63 sec. (1559836.31 ticks, tree = 546.47 MB, solutions = 119)
+ 266413 190598     1516.4246   288     1720.0000     1346.0000 41062214   21.74%
+ 266764 190965     1598.0000   233     1720.0000     1346.0000 41166280   21.74%
+ 267023 191084     1460.0000   296     1720.0000     1346.0000 41200269   21.74%
+ 267244 191743     1657.0000   214     1720.0000     1346.0000 41377641   21.74%
+ 267589 191654     1590.0000   242     1720.0000     1346.0000 41366110   21.74%
+ 268054 191886     1386.8638   391     1720.0000     1346.0000 41407750   21.74%
+ 268562 192226     1352.3939   314     1720.0000     1346.0000 41532155   21.74%
+ 269065 193075     1648.0000   160     1720.0000     1346.0805 41791497   21.74%
+ 269516 192609     1553.8667   267     1720.0000     1346.1159 41643907   21.74%
+ 269968 193601     1552.0000   257     1720.0000     1346.2579 41930103   21.73%
+Elapsed time = 2489.91 sec. (1598079.47 ticks, tree = 560.38 MB, solutions = 119)
+ 270392 194081     1719.0000   218     1720.0000     1346.3396 42100363   21.72%
+ 270673 194658        cutoff           1720.0000     1346.5000 42296961   21.72%
+ 270853 194423     1662.0000   214     1720.0000     1346.5000 42206548   21.72%
+ 270998 194598     1558.3599   285     1720.0000     1346.5000 42276099   21.72%
+ 271247 195047     1406.0000   351     1720.0000     1346.5984 42445656   21.71%
+ 271581 195101     1690.0000   201     1720.0000     1346.5984 42474949   21.71%
+ 272059 195388        cutoff           1720.0000     1346.5984 42566527   21.71%
+*272497+195219                         1719.0000     1346.5984            21.66%
+New incumbent written to file 'solucoes/t_lazy_desig_triang_ID028M020J020_ZintTrue_minla_fav_ub0/sol-00090.sol'.
+ 272570 195249     1646.0000   171     1719.0000     1346.5984 42514120   21.66%
+ 272956 195728     1460.4431   337     1719.0000     1346.7583 42807020   21.65%
+ 273322 195783     1377.2791   389     1719.0000     1346.7583 42822393   21.65%
+Elapsed time = 2556.99 sec. (1636356.28 ticks, tree = 567.44 MB, solutions = 120)
+ 273747 196015     1688.0000   177     1719.0000     1346.9059 42894294   21.65%
+ 274224 196240     1467.0000   325     1719.0000     1346.9109 42969715   21.65%
+ 274648 196950     1640.0000   219     1719.0000     1347.0000 43221735   21.64%
+ 274868 196907     1420.2440   371     1719.0000     1347.0000 43207494   21.64%
+ 275034 197852     1360.3787   415     1719.0000     1347.0000 43512746   21.64%
+ 275208 197977     1522.0374   284     1719.0000     1347.0000 43573383   21.64%
+ 275463 198061        cutoff           1719.0000     1347.0000 43589098   21.64%
+ 275890 198230     1578.2391   240     1719.0000     1347.0000 43694625   21.64%
+ 276280 198191     1473.8994   308     1719.0000     1347.1329 43647299   21.63%
+ 276555 199106     1462.0000   275     1719.0000     1347.1395 43994274   21.63%
+Elapsed time = 2623.90 sec. (1674677.83 ticks, tree = 577.92 MB, solutions = 120)
+ 276853 199227     1642.2405   232     1719.0000     1347.1395 44041992   21.63%
+ 277236 199259     1365.2564   370     1719.0000     1347.1395 44045007   21.63%
+ 277678 199666     1532.6349   311     1719.0000     1347.2364 44207139   21.63%
+ 278134 200290     1651.0000   226     1719.0000     1347.2603 44404285   21.63%
+ 278437 200086     1701.0000   229     1719.0000     1347.2603 44341042   21.63%
+ 278639 200662     1562.4828   286     1719.0000     1347.2603 44517849   21.63%
+ 278876 201061     1660.5217   242     1719.0000     1347.5556 44632356   21.61%
+ 279187 201144     1513.0000   279     1719.0000     1347.5556 44668888   21.61%
+ 279563 201219     1621.0000   222     1719.0000     1347.5556 44701111   21.61%
+ 279991 201536     1657.0000   191     1719.0000     1347.5556 44775495   21.61%
+Elapsed time = 2691.32 sec. (1712975.03 ticks, tree = 586.41 MB, solutions = 120)
+ 280425 201831     1515.0000   337     1719.0000     1347.6529 44908606   21.60%
+ 280853 202198     1348.2039   347     1719.0000     1347.6829 45009883   21.60%
+ 281334 202545     1664.0000   203     1719.0000     1347.7440 45112447   21.60%
+ 281811 203254     1608.2238   243     1719.0000     1347.7986 45339012   21.59%
+ 282276 203182     1352.9133   407     1719.0000     1347.8235 45316354   21.59%
+ 282644 204141     1637.0000   240     1719.0000     1347.8235 45616027   21.59%
+ 282883 203711     1643.5000   235     1719.0000     1347.8235 45496516   21.59%
+ 283034 204316     1540.5191   258     1719.0000     1347.8702 45653456   21.59%
+ 283261 204806     1514.0000   310     1719.0000     1347.8702 45789803   21.59%
+ 283610 205031     1400.8702   359     1719.0000     1347.9439 45849007   21.59%
+Elapsed time = 2757.27 sec. (1751206.50 ticks, tree = 597.49 MB, solutions = 120)
+ 284008 205250     1658.0000   185     1719.0000     1347.9439 45906056   21.59%
+ 284387 205699        cutoff           1719.0000     1347.9483 46105596   21.59%
+ 284761 205585     1438.0000   311     1719.0000     1347.9483 46046459   21.59%
+ 285110 206123     1369.6120   330     1719.0000     1347.9483 46233945   21.59%
+ 285554 206522     1676.0000   210     1719.0000     1347.9483 46369491   21.59%
+ 285840 206328     1402.4615   424     1719.0000     1347.9483 46324383   21.59%
+ 286061 206839     1348.0898   383     1719.0000     1348.0000 46527509   21.58%
+ 286168 207217     1553.0000   304     1719.0000     1348.0000 46663155   21.58%
+ 286297 207513     1467.0000   267     1719.0000     1348.0000 46783655   21.58%
+ 286578 207688     1708.0000   234     1719.0000     1348.0000 46872248   21.58%
+Elapsed time = 2825.33 sec. (1789500.30 ticks, tree = 605.95 MB, solutions = 120)
+ 286938 207824     1457.0000   294     1719.0000     1348.0000 46914834   21.58%
+ 287383 208278     1480.0000   320     1719.0000     1348.0000 47102780   21.58%
+ 287819 207957     1603.0000   241     1719.0000     1348.0000 46942162   21.58%
+ 288154 208387        cutoff           1719.0000     1348.0000 47133382   21.58%
+ 288425 209062     1565.3923   280     1719.0000     1348.0000 47367204   21.58%
+ 288798 209458     1495.1786   295     1719.0000     1348.0000 47487878   21.58%
+ 289134 209687     1375.0134   414     1719.0000     1348.0000 47574527   21.58%
+ 289497 209788     1545.0000   283     1719.0000     1348.0000 47607542   21.58%
+ 289737 210440     1578.0000   275     1719.0000     1348.0000 47859994   21.58%
+ 289886 210264     1596.0000   223     1719.0000     1348.0000 47791926   21.58%
+Elapsed time = 2896.57 sec. (1827817.12 ticks, tree = 616.21 MB, solutions = 120)
+ 290049 210790        cutoff           1719.0000     1348.0000 47977861   21.58%
+ 290372 210837     1631.7524   194     1719.0000     1348.0000 47990812   21.58%
+ 290689 210976        cutoff           1719.0000     1348.0000 48040509   21.58%
+ 291068 211339     1578.0000   267     1719.0000     1348.0000 48173761   21.58%
+ 291451 211249     1663.0000   260     1719.0000     1348.0000 48127853   21.58%
+ 291880 211639     1716.0000    97     1719.0000     1348.0000 48271467   21.58%
+ 292192 212001     1578.0000   279     1719.0000     1348.0000 48402460   21.58%
+ 292545 212454     1496.0988   283     1719.0000     1348.0000 48571291   21.58%
+ 292902 212661    infeasible           1719.0000     1348.0000 48653350   21.58%
+ 293238 212781     1382.0000   385     1719.0000     1348.0000 48702457   21.58%
+Elapsed time = 2964.67 sec. (1866076.98 ticks, tree = 624.25 MB, solutions = 120)
+ 293407 213163        cutoff           1719.0000     1348.0000 48830743   21.58%
+ 293563 213424     1543.4246   317     1719.0000     1348.0000 48958762   21.58%
+ 293690 213830     1544.0000   252     1719.0000     1348.0000 49097357   21.58%
+ 293975 213954     1395.1693   380     1719.0000     1348.0000 49134653   21.58%
+ 294245 214068     1476.0000   323     1719.0000     1348.0000 49198192   21.58%
+ 294621 214308     1687.0000   155     1719.0000     1348.0000 49261697   21.58%
+ 295002 214624        cutoff           1719.0000     1348.0000 49411294   21.58%
+ 295339 215097     1444.0000   319     1719.0000     1348.0000 49598714   21.58%
+ 295695 215192     1410.1890   365     1719.0000     1348.0000 49649670   21.58%
+ 296030 215413     1544.0000   264     1719.0000     1348.0000 49724850   21.58%
+Elapsed time = 3033.59 sec. (1904315.73 ticks, tree = 632.72 MB, solutions = 120)
+ 296268 215528     1643.2925   188     1719.0000     1348.0000 49762576   21.58%
+ 296487 215649     1428.5255   340     1719.0000     1348.0000 49834420   21.58%
+ 296675 216481    infeasible           1719.0000     1348.0000 50120590   21.58%
+ 296924 216502     1637.6486   312     1719.0000     1348.0000 50136129   21.58%
+ 297220 216762     1555.0543   271     1719.0000     1348.0000 50222516   21.58%
+ 297626 216768     1452.7020   386     1719.0000     1348.0000 50222974   21.58%
+ 298011 216933     1633.3016   251     1719.0000     1348.0000 50288845   21.58%
+ 298328 217294     1502.9538   330     1719.0000     1348.0000 50433704   21.58%
+ 298644 217536     1673.0000   221     1719.0000     1348.0000 50516734   21.58%
+ 298898 218121     1450.0000   334     1719.0000     1348.0000 50736493   21.58%
+Elapsed time = 3102.89 sec. (1942560.43 ticks, tree = 641.46 MB, solutions = 120)
+ 299222 218245     1480.4810   294     1719.0000     1348.0000 50779816   21.58%
+ 299625 218591     1560.8844   227     1719.0000     1348.0000 50925263   21.58%
+ 300013 218762     1423.9472   365     1719.0000     1348.0000 50997229   21.58%
+ 300284 218670     1431.0250   361     1719.0000     1348.0000 50973030   21.58%
+ 300521 219169     1496.1829   340     1719.0000     1348.0000 51131902   21.58%
+ 300682 219593     1433.8903   292     1719.0000     1348.0000 51269487   21.58%
+ 300937 219881     1683.0000   272     1719.0000     1348.0000 51345459   21.58%
+ 301388 220018     1634.6599   197     1719.0000     1348.0000 51386001   21.58%
+ 301831 220180     1589.0000   244     1719.0000     1348.0000 51449648   21.58%
+ 302236 220975     1702.0000   226     1719.0000     1348.0000 51682632   21.58%
+Elapsed time = 3169.65 sec. (1980782.56 ticks, tree = 650.68 MB, solutions = 120)
+ 302616 221008     1576.2364   277     1719.0000     1348.2229 51699059   21.57%
+ 303050 221344     1401.2400   401     1719.0000     1348.2308 51801155   21.57%
+ 303535 221750     1452.3000   294     1719.0000     1348.3186 51953515   21.56%
+ 303980 221819     1550.8667   258     1719.0000     1348.3376 51966218   21.56%
+ 304408 222026        cutoff           1719.0000     1348.3985 52056761   21.56%
+ 304713 222451     1665.0000   189     1719.0000     1348.4375 52193228   21.56%
+ 305000 222919     1362.0960   397     1719.0000     1348.4375 52307226   21.56%
+ 305145 223224     1473.7803   294     1719.0000     1348.4375 52401432   21.56%
+ 305278 223827     1643.0000   235     1719.0000     1348.4375 52636391   21.56%
+ 305512 223955     1710.0000   226     1719.0000     1348.4375 52666818   21.56%
+Elapsed time = 3238.05 sec. (2019075.34 ticks, tree = 660.36 MB, solutions = 120)
+ 305826 223999     1552.0000   253     1719.0000     1348.4375 52695057   21.56%
+ 306195 224056     1582.0000   283     1719.0000     1348.4375 52725583   21.56%
+ 306553 224478     1502.0000   345     1719.0000     1348.5329 52861555   21.55%
+ 306993 224312     1500.7630   345     1719.0000     1348.5329 52798806   21.55%
+ 307406 225312     1425.0000   342     1719.0000     1348.5884 53188321   21.55%
+ 307802 225623     1663.5738   188     1719.0000     1348.5884 53267896   21.55%
+ 308230 225712     1594.1333   212     1719.0000     1348.5884 53330928   21.55%
+ 308531 226528     1604.0000   263     1719.0000     1348.5884 53641821   21.55%
+ 308684 226014     1550.0000   318     1719.0000     1348.5884 53451961   21.55%
+ 308811 226837     1450.0000   397     1719.0000     1348.5884 53775960   21.55%
+Elapsed time = 3307.51 sec. (2057428.61 ticks, tree = 669.70 MB, solutions = 120)
+ 308960 226685     1497.5443   291     1719.0000     1348.5884 53682372   21.55%
+ 309177 226957     1496.0290   329     1719.0000     1348.5884 53829519   21.55%
+ 309548 227255     1599.8861   220     1719.0000     1348.7693 53940172   21.54%
+*309968+227138                         1717.0000     1348.7791            21.45%
+New incumbent written to file 'solucoes/t_lazy_desig_triang_ID028M020J020_ZintTrue_minla_fav_ub0/sol-00091.sol'.
+ 309977 227114        cutoff           1717.0000     1348.7791 53901278   21.45%
+ 310392 227490     1649.0000   232     1717.0000     1348.8628 53999155   21.44%
+ 310869 226827     1387.9774   351     1717.0000     1348.9157 54101930   21.44%
+ 311393 227376     1621.0000   209     1717.0000     1348.9157 54307224   21.44%
+ 311744 227425     1413.0000   391     1717.0000     1348.9194 54320014   21.44%
+ 312067 228013     1607.0000   295     1717.0000     1348.9846 54498898   21.43%
+ 312401 228589     1578.0000   286     1717.0000     1349.0000 54637104   21.43%
+Elapsed time = 3376.73 sec. (2095715.53 ticks, tree = 678.16 MB, solutions = 121)
+ 312811 228967     1621.0000   270     1717.0000     1349.0000 54774122   21.43%
+ 313260 229270     1454.2996   310     1717.0000     1349.0000 54850502   21.43%
+ 313563 229130     1632.0000   253     1717.0000     1349.0000 54823958   21.43%
+*313661+229354                         1713.0000     1349.0000            21.25%
+New incumbent written to file 'solucoes/t_lazy_desig_triang_ID028M020J020_ZintTrue_minla_fav_ub0/sol-00092.sol'.
+ 313759 229384     1521.8672   275     1713.0000     1349.0000 54902486   21.25%
+ 313899 229590     1692.0000   176     1713.0000     1349.0000 54967141   21.25%
+ 314118 228320     1358.8870   433     1713.0000     1349.0000 55218260   21.25%
+ 314499 228447     1572.0000   254     1713.0000     1349.0000 55275138   21.25%
+ 314846 228629     1542.0000   355     1713.0000     1349.0000 55344816   21.25%
+ 315314 229065     1473.0000   344     1713.0000     1349.0000 55521304   21.25%
+ 315789 229118     1554.0000   296     1713.0000     1349.0000 55536024   21.25%
+Elapsed time = 3444.16 sec. (2133917.26 ticks, tree = 680.65 MB, solutions = 122)
+ 316177 229170        cutoff           1713.0000     1349.0000 55551889   21.25%
+ 316596 229620     1433.0000   396     1713.0000     1349.0000 55706039   21.25%
+ 316989 230349     1460.7710   341     1713.0000     1349.0000 55966633   21.25%
+ 317305 230598     1575.1154   259     1713.0000     1349.0000 56062468   21.25%
+ 317597 230642     1558.4246   343     1713.0000     1349.0903 56074827   21.24%
+ 317817 231184     1419.9059   405     1713.0000     1349.0903 56292701   21.24%
+ 317949 231536     1382.0000   419     1713.0000     1349.0903 56414664   21.24%
+ 318088 231417     1421.3148   360     1713.0000     1349.0903 56388149   21.24%
+ 318266 231714     1349.5654   400     1713.0000     1349.1447 56481823   21.24%
+ 318566 231882     1446.4419   345     1713.0000     1349.1447 56559230   21.24%
+Elapsed time = 3513.54 sec. (2172197.35 ticks, tree = 689.66 MB, solutions = 122)
+ 318882 231812     1648.0000   208     1713.0000     1349.3667 56524152   21.23%
+ 319302 232437     1476.0000   343     1713.0000     1349.4688 56770594   21.22%
+ 319709 232560     1360.6089   344     1713.0000     1349.4688 56816112   21.22%
+ 320167 232538     1639.6610   200     1713.0000     1349.5654 56801990   21.22%
+ 320633 233266     1635.0000   235     1713.0000     1349.5671 57055984   21.22%
+ 321096 233546     1510.8101   309     1713.0000     1349.5671 57152861   21.22%
+ 321543 233678     1561.0000   279     1713.0000     1349.6558 57198527   21.21%
+ 321914 234356     1667.3333   189     1713.0000     1349.6558 57389650   21.21%
+ 322250 234417     1537.0000   244     1713.0000     1349.6918 57403783   21.21%
+ 322496 235280     1453.8805   322     1713.0000     1349.7142 57720512   21.21%
+Elapsed time = 3582.69 sec. (2210455.46 ticks, tree = 700.74 MB, solutions = 122)
+ 322620 235148     1542.6807   269     1713.0000     1349.7142 57683934   21.21%
+ 322784 235550     1687.0000   190     1713.0000     1349.7142 57811401   21.21%
+ 323131 235737     1441.5223   337     1713.0000     1349.7142 57870673   21.21%
+ 323505 235782     1570.4246   259     1713.0000     1349.7189 57887213   21.21%
+ 323909 236002     1517.1829   345     1713.0000     1349.7189 57972779   21.21%
+ 324352 236428     1699.0000   229     1713.0000     1349.7189 58158829   21.21%
+ 324840 236404     1658.0000   193     1713.0000     1349.8759 58122607   21.20%
+ 325312 236898     1663.0000   177     1713.0000     1349.9371 58271289   21.19%
+ 325698 237392     1675.0000   210     1713.0000     1349.9539 58436822   21.19%
+ 326069 237845     1559.3155   257     1713.0000     1349.9848 58607712   21.19%
+Elapsed time = 3650.98 sec. (2248744.57 ticks, tree = 709.10 MB, solutions = 122)
+ 326331 238109     1432.0676   342     1713.0000     1349.9848 58698109   21.19%
+ 326631 238305     1485.2467   401     1713.0000     1349.9848 58739522   21.19%
+ 326834 238655     1469.5601   374     1713.0000     1350.0732 58845036   21.19%
+ 326996 238688        cutoff           1713.0000     1350.1808 58856578   21.18%
+ 327123 239023     1402.0391   420     1713.0000     1350.2291 58999753   21.18%
+ 327365 239290     1458.0000   333     1713.0000     1350.2980 59107230   21.17%
+ 327691 239405     1448.0000   359     1713.0000     1350.2980 59144395   21.17%
+ 328055 239475     1664.6944   237     1713.0000     1350.3300 59171948   21.17%
+ 328489 240247     1538.0000   261     1713.0000     1350.3300 59476919   21.17%
+ 328914 239962     1696.0000   193     1713.0000     1350.3333 59362176   21.17%
+Elapsed time = 3720.33 sec. (2287054.87 ticks, tree = 716.01 MB, solutions = 122)
+ 329348 240489     1551.0000   268     1713.0000     1350.3830 59569793   21.17%
+ 329758 241146     1449.9548   377     1713.0000     1350.3830 59785776   21.17%
+ 330229 240968     1412.7336   324     1713.0000     1350.3830 59718103   21.17%
+ 330671 241764     1534.8429   267     1713.0000     1350.4416 59997402   21.17%
+ 331026 241808     1526.8514   286     1713.0000     1350.4483 60014863   21.16%
+ 331403 241973     1475.0000   364     1713.0000     1350.4516 60061075   21.16%
+ 331680 242862     1506.7627   273     1713.0000     1350.4516 60320973   21.16%
+ 331807 242992     1506.0000   258     1713.0000     1350.4516 60363825   21.16%
+ 331932 243391     1562.3171   233     1713.0000     1350.4516 60484415   21.16%
+ 332171 243381     1514.0000   295     1713.0000     1350.4516 60484818   21.16%
+Elapsed time = 3790.00 sec. (2325320.46 ticks, tree = 727.13 MB, solutions = 122)
+ 332539 243555     1457.0000   279     1713.0000     1350.4516 60547881   21.16%
+ 332966 243722     1616.0000   209     1713.0000     1350.4516 60590831   21.16%
+ 333388 244162     1641.0000   173     1713.0000     1350.4516 60745187   21.16%
+ 333840 244517     1432.0000   333     1713.0000     1350.4516 60858074   21.16%
+ 334335 244833     1602.7213   235     1713.0000     1350.4516 60943317   21.16%
+ 334811 244724     1685.0000   184     1713.0000     1350.4516 60917536   21.16%
+ 335218 245192     1577.0000   283     1713.0000     1350.4516 61050986   21.16%
+ 335681 245646     1402.9224   333     1713.0000     1350.4516 61182622   21.16%
+ 336137 246272     1614.0988   214     1713.0000     1350.4516 61377666   21.16%
+ 336551 246843     1592.0580   250     1713.0000     1350.4516 61535423   21.16%
+Elapsed time = 3859.42 sec. (2363550.56 ticks, tree = 738.41 MB, solutions = 122)
+ 336877 246878     1398.3174   401     1713.0000     1350.4516 61550395   21.16%
+ 337141 247106        cutoff           1713.0000     1350.4516 61624434   21.16%
+ 337374 247796     1624.0000   241     1713.0000     1350.4516 61830139   21.16%
+ 337533 247994     1414.7089   368     1713.0000     1350.4516 61913501   21.16%
+ 337718 248295     1660.0000   223     1713.0000     1350.4516 62022891   21.16%
+ 338011 248334     1574.0886   230     1713.0000     1350.4516 62036109   21.16%
+ 338371 248498     1572.8790   260     1713.0000     1350.4831 62106483   21.16%
+ 338838 248493     1561.5217   305     1713.0000     1350.4831 62110667   21.16%
+ 339194 248730     1472.1333   280     1713.0000     1350.4931 62172653   21.16%
+ 339509 249137     1612.2290   274     1713.0000     1350.5148 62335922   21.16%
+Elapsed time = 3927.95 sec. (2401892.77 ticks, tree = 745.92 MB, solutions = 122)
+ 339865 249281     1388.1484   365     1713.0000     1350.5369 62387145   21.16%
+ 340255 250051     1666.3291   206     1713.0000     1350.5610 62618369   21.16%
+ 340628 250149     1649.2405   263     1713.0000     1350.5610 62669772   21.16%
+ 341069 250613     1451.5026   296     1713.0000     1350.5830 62838060   21.16%
+ 341503 251061     1555.0000   291     1713.0000     1350.6215 62954518   21.15%
+ 341768 250886     1664.0000   168     1713.0000     1350.6867 62906218   21.15%
+ 342031 251242     1509.0000   253     1713.0000     1350.6867 63006260   21.15%
+ 342176 252190     1407.2705   343     1713.0000     1350.7190 63328829   21.15%
+ 342377 252136     1570.0000   232     1713.0000     1350.7779 63307793   21.15%
+ 342613 252322     1503.0000   325     1713.0000     1350.7779 63385340   21.15%
+Elapsed time = 3997.97 sec. (2440258.95 ticks, tree = 756.34 MB, solutions = 122)
+ 343064 252438     1422.6835   349     1713.0000     1350.8173 63421320   21.14%
+ 343515 252467     1599.0000   256     1713.0000     1350.8173 63417673   21.14%
+ 343978 252536     1649.0000   176     1713.0000     1350.9116 63446081   21.14%
+ 344427 253860     1593.6194   229     1713.0000     1350.9394 63821818   21.14%
+ 344920 253463     1542.3913   285     1713.0000     1350.9394 63681387   21.14%
+ 345309 253553     1486.8667   350     1713.0000     1350.9892 63735493   21.13%
+ 345751 254420     1666.0000   186     1713.0000     1350.9892 64013907   21.13%
+ 346214 254854     1534.0000   252     1713.0000     1351.0000 64147641   21.13%
+ 346591 255070     1692.0000   188     1713.0000     1351.0000 64206201   21.13%
+ 346893 255565     1685.0000   188     1713.0000     1351.0353 64369563   21.13%
+Elapsed time = 4066.70 sec. (2478496.42 ticks, tree = 767.01 MB, solutions = 122)
+ 347109 255908     1613.0000   242     1713.0000     1351.0516 64484640   21.13%
+ 347338 256252     1449.0000   373     1713.0000     1351.0681 64621120   21.13%
+ 347462 256772     1690.0000   240     1713.0000     1351.1580 64798370   21.12%
+ 347629 256755     1473.8489   340     1713.0000     1351.1580 64798642   21.12%
+ 347831 256892     1647.0000   272     1713.0000     1351.1849 64853789   21.12%
+ 348160 257036     1535.0000   356     1713.0000     1351.1849 64910394   21.12%
+ 348537 257029        cutoff           1713.0000     1351.1849 64898525   21.12%
+ 348917 257472     1454.5000   327     1713.0000     1351.2050 65095178   21.12%
+ 349366 258025     1601.0000   300     1713.0000     1351.2050 65322436   21.12%
+ 349798 257452     1631.6384   261     1713.0000     1351.2222 65075144   21.12%
+Elapsed time = 4134.99 sec. (2516794.81 ticks, tree = 773.21 MB, solutions = 122)
+ 350217 258089     1434.8925   411     1713.0000     1351.2222 65357994   21.12%
+ 350578 259019     1507.0000   313     1713.0000     1351.2222 65640622   21.12%
+ 350937 259094     1642.0000   164     1713.0000     1351.2222 65654090   21.12%
+ 351205 259249     1566.8598   276     1713.0000     1351.2373 65723235   21.12%
+ 351351 259967     1651.1852   235     1713.0000     1351.2405 66035903   21.12%
+ 351490 259974     1590.0000   310     1713.0000     1351.3171 66047549   21.11%
+ 351649 260142     1650.0000   203     1713.0000     1351.3520 66090478   21.11%
+ 351935 260284     1596.0000   247     1713.0000     1351.3520 66188201   21.11%
+ 352269 260337     1609.0000   239     1713.0000     1351.3520 66191069   21.11%
+ 352613 260353     1616.0000   236     1713.0000     1351.3520 66212991   21.11%
+Elapsed time = 4204.27 sec. (2555100.84 ticks, tree = 782.73 MB, solutions = 122)
+ 352902 260440     1688.0000   177     1713.0000     1351.3520 66238157   21.11%
+ 353271 261178     1590.1816   235     1713.0000     1351.5116 66509466   21.10%
+ 353670 261671     1654.0000   213     1713.0000     1351.5938 66687285   21.10%
+ 354104 261711     1642.0000   248     1713.0000     1351.5938 66705059   21.10%
+ 354506 261765     1423.0000   309     1713.0000     1351.6463 66720705   21.09%
+ 354912 262534     1559.8125   275     1713.0000     1351.7094 66978765   21.09%
+ 355216 262325     1607.0000   253     1713.0000     1351.7314 66922405   21.09%
+ 355459 262734     1607.0000   238     1713.0000     1351.7314 67043503   21.09%
+ 355658 263628     1403.0580   372     1713.0000     1351.7314 67389762   21.09%
+ 355785 263592     1520.0000   331     1713.0000     1351.7314 67378429   21.09%
+Elapsed time = 4273.38 sec. (2593323.81 ticks, tree = 793.39 MB, solutions = 122)
+ 355945 263753     1507.0000   283     1713.0000     1351.7314 67439150   21.09%
+ 356212 263735     1495.6962   283     1713.0000     1351.9535 67448448   21.08%
+ 356620 263978     1596.8734   254     1713.0000     1351.9641 67520426   21.08%
+ 357053 263970     1473.0726   307     1713.0000     1352.0000 67520790   21.07%
+ 357438 264494     1535.0342   252     1713.0000     1352.0000 67722152   21.07%
+ 357915 264427     1451.0000   294     1713.0000     1352.0000 67706618   21.07%
+ 358335 265421     1397.0000   352     1713.0000     1352.0000 68052171   21.07%
+ 358721 265828     1407.3650   377     1713.0000     1352.0000 68202626   21.07%
+ 359160 265626     1508.0676   310     1713.0000     1352.0000 68115491   21.07%
+ 359518 266225     1565.0000   282     1713.0000     1352.0000 68336339   21.07%
+Elapsed time = 4343.38 sec. (2631562.13 ticks, tree = 802.07 MB, solutions = 122)
+ 359775 266278     1585.1334   235     1713.0000     1352.0000 68346473   21.07%
+ 359931 266303     1681.0000   201     1713.0000     1352.0000 68357288   21.07%
+ 360075 266860     1571.0000   247     1713.0000     1352.1003 68586423   21.07%
+ 360235 267289     1483.0000   279     1713.0000     1352.1003 68710932   21.07%
+ 360526 267412     1419.5249   366     1713.0000     1352.1003 68735724   21.07%
+ 360929 267491     1575.1816   299     1713.0000     1352.1003 68772819   21.07%
+ 361350 267619     1699.0000   157     1713.0000     1352.2297 68825616   21.06%
+ 361767 267661     1476.3115   448     1713.0000     1352.2297 68843681   21.06%
+ 362213 268327     1674.0000   185     1713.0000     1352.2593 69045727   21.06%
+ 362602 269033     1405.0951   331     1713.0000     1352.2941 69268263   21.06%
+Elapsed time = 4410.35 sec. (2669805.22 ticks, tree = 811.28 MB, solutions = 122)
+ 363110 268693     1659.0000   231     1713.0000     1352.2941 69148240   21.06%
+ 363417 269038     1542.0000   301     1713.0000     1352.3171 69242046   21.06%
+ 363781 270060     1699.5952   173     1713.0000     1352.4423 69625230   21.05%
+ 364129 269742     1616.0000   263     1713.0000     1352.4423 69522312   21.05%
+ 364437 270357     1598.0000   273     1713.0000     1352.4831 69720814   21.05%
+ 364696 270563     1662.0000   256     1713.0000     1352.5047 69798290   21.04%
+ 364822 271209     1597.0000   237     1713.0000     1352.5047 70010394   21.04%
+ 364976 271112     1508.9440   357     1713.0000     1352.5047 69981157   21.04%
+ 365212 271589     1598.6026   235     1713.0000     1352.5047 70154524   21.04%
+ 365590 271618     1494.0891   333     1713.0000     1352.5047 70172444   21.04%
+Elapsed time = 4478.66 sec. (2708051.65 ticks, tree = 819.80 MB, solutions = 122)
+ 365979 271606     1561.0000   246     1713.0000     1352.5047 70157215   21.04%
+ 366288 272318     1456.0000   392     1713.0000     1352.5047 70413501   21.04%
+ 366566 272586     1449.3113   318     1713.0000     1352.5047 70517079   21.04%
+ 366870 272493     1575.8354   194     1713.0000     1352.5745 70480134   21.04%
+ 367254 272772     1586.1733   256     1713.0000     1352.5745 70571359   21.04%
+ 367643 273450     1641.0000   241     1713.0000     1352.5910 70820718   21.04%
+ 368028 273665     1608.0000   268     1713.0000     1352.6324 70899763   21.04%
+ 368370 273686     1673.0000   296     1713.0000     1352.6324 70916597   21.04%
+ 368685 273722     1524.0000   262     1713.0000     1352.6641 70933100   21.04%
+ 368974 274118     1413.5274   338     1713.0000     1352.7262 71060064   21.03%
+Elapsed time = 4551.97 sec. (2746386.51 ticks, tree = 830.99 MB, solutions = 122)
+ 369208 274041     1606.0000   219     1713.0000     1352.7790 71032835   21.03%
+ 369344 274660        cutoff           1713.0000     1352.8134 71297428   21.03%
+ 369456 274795     1675.0000   149     1713.0000     1352.8321 71350442   21.03%
+ 369638 275271     1662.0000   238     1713.0000     1352.8321 71533834   21.03%
+ 369992 275226     1663.8846   258     1713.0000     1352.8321 71518499   21.03%
+ 370439 275488     1516.0000   249     1713.0000     1352.8917 71633175   21.02%
+ 370905 275578     1614.0000   219     1713.0000     1352.9216 71659053   21.02%
+ 371355 275740     1509.0000   395     1713.0000     1352.9440 71726362   21.02%
+ 371761 276009     1651.0000   173     1713.0000     1352.9519 71773563   21.02%
+ 372196 276139     1710.0000   102     1713.0000     1353.0000 71819008   21.02%
+Elapsed time = 4618.13 sec. (2784696.58 ticks, tree = 837.68 MB, solutions = 122)
+ 372659 277097     1613.3158   226     1713.0000     1353.0000 72108742   21.02%
+ 373081 276860     1455.6759   400     1713.0000     1353.0183 72036329   21.01%
+ 373469 278285     1665.0000   240     1713.0000     1353.0892 72449467   21.01%
+ 373872 277884     1539.8217   276     1713.0000     1353.1264 72351180   21.01%
+ 374230 278225     1456.0054   361     1713.0000     1353.1407 72436600   21.01%
+ 374456 278785     1497.1520   348     1713.0000     1353.1493 72655011   21.01%
+ 374667 278915     1610.0000   275     1713.0000     1353.1493 72699314   21.01%
+ 374815 279748     1624.5000   227     1713.0000     1353.1493 72995984   21.01%
+ 374963 279758     1592.0000   294     1713.0000     1353.1493 72999792   21.01%
+ 375135 280000     1461.5538   321     1713.0000     1353.1493 73087204   21.01%
+Elapsed time = 4686.78 sec. (2823078.68 ticks, tree = 850.44 MB, solutions = 122)
+ 375431 280152     1655.0000   185     1713.0000     1353.1493 73133092   21.01%
+ 375793 280194     1562.0000   235     1713.0000     1353.1493 73181989   21.01%
+ 376179 280248     1709.0000   194     1713.0000     1353.1493 73196943   21.01%
+ 376552 280333     1471.0000   325     1713.0000     1353.2517 73257009   21.00%
+ 376928 280743     1632.0000   209     1713.0000     1353.2517 73393466   21.00%
+ 377343 281417     1643.0000   172     1713.0000     1353.2517 73622480   21.00%
+ 377694 281273     1416.0000   394     1713.0000     1353.2517 73597745   21.00%
+ 378079 281233     1628.6087   244     1713.0000     1353.2517 73559187   21.00%
+ 378368 281851     1699.0000   266     1713.0000     1353.2517 73784013   21.00%
+ 378596 282106     1633.5775   205     1713.0000     1353.4246 73878856   20.99%
+Elapsed time = 4756.42 sec. (2861332.52 ticks, tree = 857.43 MB, solutions = 122)
+ 378788 282852     1610.0000   269     1713.0000     1353.4393 74177784   20.99%
+ 378936 282960     1353.6664   448     1713.0000     1353.4610 74229190   20.99%
+ 379119 283399     1423.5091   362     1713.0000     1353.4610 74371974   20.99%
+ 379388 283357     1536.9077   290     1713.0000     1353.4610 74358244   20.99%
+ 379705 283297     1555.4076   293     1713.0000     1353.4610 74341165   20.99%
+ 380033 283536     1702.0000   215     1713.0000     1353.6018 74440268   20.98%
+ 380416 283546     1574.0000   235     1713.0000     1353.6018 74438999   20.98%
+ 380772 284195     1424.2028   393     1713.0000     1353.6426 74680355   20.98%
+ 381125 284322     1427.0920   374     1713.0000     1353.6426 74729344   20.98%
+ 381419 284359     1434.1285   361     1713.0000     1353.6426 74744459   20.98%
+Elapsed time = 4826.32 sec. (2899573.00 ticks, tree = 864.89 MB, solutions = 122)
+ 381757 284713     1501.0000   316     1713.0000     1353.6426 74884129   20.98%
+ 382091 285296     1526.0000   242     1713.0000     1353.6426 75132526   20.98%
+ 382404 285550     1601.0674   263     1713.0000     1353.6857 75215741   20.98%
+ 382705 285665     1494.5488   325     1713.0000     1353.6857 75260491   20.98%
+ 382975 285941     1353.8205   405     1713.0000     1353.7086 75334921   20.97%
+ 383195 286215     1510.1111   273     1713.0000     1353.7325 75445690   20.97%
+ 383355 286214     1635.0000   275     1713.0000     1353.7398 75415842   20.97%
+ 383535 286729     1466.3415   335     1713.0000     1353.7825 75623677   20.97%
+ 383760 287170     1518.8415   316     1713.0000     1353.8205 75768894   20.97%
+ 384132 287312     1512.7978   349     1713.0000     1353.8263 75813705   20.97%
+Elapsed time = 4897.66 sec. (2937867.60 ticks, tree = 874.70 MB, solutions = 122)
+ 384573 287322     1645.0000   193     1713.0000     1353.8812 75814064   20.96%
+ 385011 287811     1431.8836   325     1713.0000     1353.9177 75965483   20.96%
+ 385371 288408     1497.0000   347     1713.0000     1353.9371 76160174   20.96%
+ 385747 288655     1616.5150   281     1713.0000     1353.9449 76246554   20.96%
+ 386111 288683     1489.0000   341     1713.0000     1353.9449 76262398   20.96%
+ 386477 289267        cutoff           1713.0000     1353.9668 76495600   20.96%
+ 386840 289487     1579.0000   250     1713.0000     1353.9668 76586320   20.96%
+ 387235 289106     1384.3002   377     1713.0000     1354.0000 76450444   20.96%
+ 387630 289745     1429.4553   384     1713.0000     1354.0100 76708972   20.96%
+ 387954 289704     1459.1266   341     1713.0000     1354.0337 76678921   20.96%
+Elapsed time = 4968.31 sec. (2976100.56 ticks, tree = 882.67 MB, solutions = 122)
+ 388207 289946     1702.0000   154     1713.0000     1354.0945 76772991   20.95%
+ 388425 290767     1356.6755   379     1713.0000     1354.1458 77075303   20.95%
+ 388568 290780     1560.0000   269     1713.0000     1354.1627 77079476   20.95%
+ 388703 291469     1399.4832   329     1713.0000     1354.2038 77324050   20.95%
+ 388882 291502     1447.7055   262     1713.0000     1354.2080 77334356   20.95%
+ 389167 291682     1607.0000   234     1713.0000     1354.2080 77397990   20.95%
+ 389486 291714     1596.0000   293     1713.0000     1354.2080 77409309   20.95%
+ 389909 291745     1475.3969   346     1713.0000     1354.2080 77434900   20.95%
+ 390419 292088     1688.0000   199     1713.0000     1354.2080 77538294   20.95%
+ 390895 292613     1577.5510   259     1713.0000     1354.2714 77677636   20.94%
+Elapsed time = 5035.81 sec. (3014396.65 ticks, tree = 892.32 MB, solutions = 122)
+ 391317 292739     1599.0000   234     1713.0000     1354.2870 77719846   20.94%
+ 391743 293239     1524.0000   284     1713.0000     1354.2999 77844988   20.94%
+ 392229 293013     1455.9956   287     1713.0000     1354.2999 77786258   20.94%
+ 392656 293502        cutoff           1713.0000     1354.2999 77919046   20.94%
+ 393072 294437     1511.8871   288     1713.0000     1354.3104 78190621   20.94%
+ 393497 295163     1628.0000   273     1713.0000     1354.3104 78405163   20.94%
+ 393931 295000     1577.0000   232     1713.0000     1354.3104 78334128   20.94%
+ 394295 295154     1390.1399   356     1713.0000     1354.3104 78392481   20.94%
+ 394573 295663     1681.0000   233     1713.0000     1354.3104 78564421   20.94%
+ 394860 295572     1625.0000   217     1713.0000     1354.3171 78533537   20.94%
+Elapsed time = 5104.47 sec. (3052620.78 ticks, tree = 902.16 MB, solutions = 122)
+ 395059 296081     1638.2471   211     1713.0000     1354.3613 78686044   20.94%
+ 395195 297102     1553.7335   246     1713.0000     1354.3613 79006788   20.94%
+ 395364 297153     1647.0000   218     1713.0000     1354.3613 79019339   20.94%
+ 395630 297202     1605.0000   252     1713.0000     1354.3613 79033826   20.94%
+ 396017 297440     1467.6235   366     1713.0000     1354.3613 79134689   20.94%
+ 396448 297488     1361.3750   412     1713.0000     1354.3613 79145901   20.94%
+ 396858 297445     1362.0370   461     1713.0000     1354.3613 79118873   20.94%
+ 397208 298212     1459.4051   348     1713.0000     1354.3613 79379424   20.94%
+ 397547 297960     1450.9077   340     1713.0000     1354.3613 79309362   20.94%
+ 397895 298581     1682.0000   173     1713.0000     1354.3613 79490624   20.94%
+Elapsed time = 5174.22 sec. (3090886.69 ticks, tree = 912.21 MB, solutions = 122)
+ 398223 299117        cutoff           1713.0000     1354.3613 79665017   20.94%
+ 398509 298975     1399.0119   396     1713.0000     1354.3613 79632531   20.94%
+ 398805 299425     1579.0000   266     1713.0000     1354.3613 79776850   20.94%
+ 399147 299470     1531.0000   233     1713.0000     1354.3613 79788374   20.94%
+ 399495 300508     1428.0000   352     1713.0000     1354.3613 80182584   20.94%
+ 399808 300203     1571.8214   303     1713.0000     1354.3613 80082336   20.94%
+ 400095 300437     1640.0000   243     1713.0000     1354.3613 80162747   20.94%
+ 400323 300695     1635.1816   305     1713.0000     1354.3613 80242064   20.94%
+ 400454 301543     1582.9200   245     1713.0000     1354.3613 80542287   20.94%
+ 400580 301663        cutoff           1713.0000     1354.3613 80592412   20.94%
+Elapsed time = 5246.93 sec. (3129106.19 ticks, tree = 922.50 MB, solutions = 122)
+ 400799 301576     1655.0000   134     1713.0000     1354.3613 80547527   20.94%
+ 401077 301828        cutoff           1713.0000     1354.3613 80664135   20.94%
+ 401433 301835     1698.0000   151     1713.0000     1354.3613 80660253   20.94%
+ 401844 301985     1565.8214   308     1713.0000     1354.3613 80718516   20.94%
+ 402204 302590     1570.4944   251     1713.0000     1354.3613 80924031   20.94%
+ 402597 302270        cutoff           1713.0000     1354.3613 80814979   20.94%
+ 402940 303351     1515.2007   292     1713.0000     1354.3613 81204209   20.94%
+ 403319 303267     1625.2007   257     1713.0000     1354.3613 81174368   20.94%
+ 403735 303565     1545.0000   321     1713.0000     1354.3613 81266575   20.94%
+ 404112 303620     1669.0000   200     1713.0000     1354.3613 81281543   20.94%
+Elapsed time = 5317.95 sec. (3167332.54 ticks, tree = 929.09 MB, solutions = 122)
+ 404539 303679     1661.3651   206     1713.0000     1354.3613 81295299   20.94%
+ 404864 304172     1596.0000   269     1713.0000     1354.4599 81500772   20.93%
+ 405106 304490     1629.3314   257     1713.0000     1354.4599 81641748   20.93%
+ 405307 304648     1464.6596   333     1713.0000     1354.4599 81686808   20.93%
+ 405451 305703     1418.6596   457     1713.0000     1354.4599 82047364   20.93%
+ 405567 305620     1354.5866   379     1713.0000     1354.4599 82020927   20.93%
+ 405703 305965     1447.0196   318     1713.0000     1354.4599 82164918   20.93%
+ 405909 306068     1608.0000   239     1713.0000     1354.4599 82214804   20.93%
+ 406208 306052     1488.0000   310     1713.0000     1354.5866 82201110   20.92%
+ 406582 306279     1701.0000   165     1713.0000     1354.5866 82300241   20.92%
+Elapsed time = 5388.47 sec. (3205617.00 ticks, tree = 938.02 MB, solutions = 122)
+ 406949 306175     1626.0000   194     1713.0000     1354.5866 82259107   20.92%
+ 407347 306483     1650.0000   252     1713.0000     1354.5866 82382262   20.92%
+ 407776 306586     1388.0000   390     1713.0000     1354.5866 82439659   20.92%
+ 408240 306848     1566.0000   237     1713.0000     1354.5897 82533427   20.92%
+ 408655 307383     1541.3599   294     1713.0000     1354.5897 82726754   20.92%
+ 408987 307934     1631.9615   239     1713.0000     1354.5897 82913105   20.92%
+ 409374 308065        cutoff           1713.0000     1354.5897 82982484   20.92%
+ 409645 308535     1491.1154   289     1713.0000     1354.5897 83116934   20.92%
+ 409861 309484     1380.1938   327     1713.0000     1354.6986 83449461   20.92%
+ 410007 309168     1686.0000   207     1713.0000     1354.7067 83321110   20.92%
+Elapsed time = 5460.14 sec. (3243985.17 ticks, tree = 947.73 MB, solutions = 122)
+ 410131 309670     1405.3363   367     1713.0000     1354.7983 83516305   20.91%
+ 410345 309649     1362.5675   379     1713.0000     1354.7989 83499871   20.91%
+ 410689 309827     1691.0000   220     1713.0000     1354.8058 83560790   20.91%
+ 411096 309774     1708.0000   129     1713.0000     1354.8235 83553010   20.91%
+ 411569 310036     1660.0000   264     1713.0000     1354.8261 83630220   20.91%
+ 411956 311037     1432.6667   363     1713.0000     1354.8647 83978360   20.91%
+ 412366 310495     1638.6804   218     1713.0000     1354.8647 83807268   20.91%
+ 412752 310523     1463.5540   285     1713.0000     1354.8780 83825182   20.91%
+ 413117 311703     1392.8753   391     1713.0000     1354.8894 84203210   20.91%
+ 413451 311313     1486.6252   305     1713.0000     1354.8983 84069984   20.90%
+Elapsed time = 5531.03 sec. (3282269.97 ticks, tree = 954.93 MB, solutions = 122)
+ 413759 312041     1419.0000   358     1713.0000     1354.8994 84328458   20.90%
+ 414053 312564     1493.7204   360     1713.0000     1354.9159 84531040   20.90%
+ 414272 312799     1656.0000   259     1713.0000     1354.9583 84646713   20.90%
+ 414486 312724     1518.1294   262     1713.0000     1354.9583 84606237   20.90%
+ 414666 313257     1586.0250   264     1713.0000     1354.9601 84817008   20.90%
+ 414855 313264     1393.1685   403     1713.0000     1354.9748 84823594   20.90%
+ 414998 313344     1511.0000   301     1713.0000     1354.9748 84857831   20.90%
+ 415172 313941     1438.0000   356     1713.0000     1355.0000 85100950   20.90%
+ 415366 314017     1424.0000   349     1713.0000     1355.0000 85130616   20.90%
+ 415658 314009     1409.2588   399     1713.0000     1355.0000 85130435   20.90%
+Elapsed time = 5603.52 sec. (3320651.07 ticks, tree = 964.00 MB, solutions = 122)
+ 415945 314067     1589.0000   224     1713.0000     1355.0000 85145231   20.90%
+ 416264 314183     1442.6338   391     1713.0000     1355.0000 85255681   20.90%
+ 416484 314571     1373.5589   425     1713.0000     1355.0000 85393737   20.90%
+ 416751 315195     1363.5456   448     1713.0000     1355.0000 85719468   20.90%
+ 417034 315263     1420.9016   424     1713.0000     1355.0000 85768430   20.90%
+ 417319 315270     1629.0000   191     1713.0000     1355.0000 85751707   20.90%
+ 417569 315453     1708.0000    92     1713.0000     1355.0000 85845830   20.90%
+ 417826 315347        cutoff           1713.0000     1355.0000 85816546   20.90%
+ 418010 315830     1545.6824   358     1713.0000     1355.0000 86036282   20.90%
+ 418150 316003     1566.0000   233     1713.0000     1355.0000 86141813   20.90%
+Elapsed time = 5679.11 sec. (3358973.54 ticks, tree = 970.70 MB, solutions = 122)
+ 418279 316649     1590.0000   197     1713.0000     1355.0000 86428617   20.90%
+ 418432 316467     1355.1566   383     1713.0000     1355.0620 86348848   20.90%
+ 418630 316729     1654.0000   204     1713.0000     1355.0620 86469256   20.90%
+ 418950 316955     1355.1440   359     1713.0000     1355.0620 86567624   20.90%
+ 419350 317051     1604.0866   224     1713.0000     1355.0620 86607245   20.90%
+ 419706 317425     1468.1310   385     1713.0000     1355.1419 86760869   20.89%
+ 420043 317084     1591.1440   210     1713.0000     1355.1440 86609875   20.89%
+ 420363 318148     1355.1440   347     1713.0000     1355.1440 87023520   20.89%
+ 420668 318268     1627.0000   237     1713.0000     1355.1440 87063989   20.89%
+ 421005 317754     1623.8766   303     1713.0000     1355.1440 86912273   20.89%
+Elapsed time = 5751.52 sec. (3397197.75 ticks, tree = 976.60 MB, solutions = 122)
+ 421398 318688     1413.1440   380     1713.0000     1355.1440 87198856   20.89%
+ 421822 319026     1684.0000   166     1713.0000     1355.1440 87331070   20.89%
+ 422242 318775     1417.8583   329     1713.0000     1355.1440 87228878   20.89%
+ 422623 319138     1608.0000   247     1713.0000     1355.1440 87360036   20.89%
+ 422869 319493     1659.0000   205     1713.0000     1355.1440 87478111   20.89%
+ 423099 319721     1516.1440   288     1713.0000     1355.1440 87569075   20.89%
+ 423255 319756     1530.3671   275     1713.0000     1355.1440 87580928   20.89%
+ 423407 320977        cutoff           1713.0000     1355.2171 87991343   20.89%
+ 423596 320975        cutoff           1713.0000     1355.2171 87994845   20.89%
+ 423857 321094     1461.4973   329     1713.0000     1355.2171 88034732   20.89%
+Elapsed time = 5821.09 sec. (3435510.84 ticks, tree = 987.87 MB, solutions = 122)
+ 424211 321094     1447.0000   361     1713.0000     1355.2171 88049318   20.89%
+ 424617 321334     1615.1967   238     1713.0000     1355.2460 88114621   20.88%
+ 424966 321295     1419.0329   357     1713.0000     1355.2460 88110892   20.88%
+ 425423 321422     1451.0000   298     1713.0000     1355.2460 88142352   20.88%
+ 425853 322291     1622.8151   227     1713.0000     1355.2460 88498272   20.88%
+ 426211 322761     1577.2308   242     1713.0000     1355.3960 88663301   20.88%
+ 426600 322363     1523.0000   281     1713.0000     1355.4160 88531149   20.87%
+ 427059 322694     1629.0000   238     1713.0000     1355.4607 88644179   20.87%
+ 427471 323284     1558.7052   292     1713.0000     1355.4791 88851470   20.87%
+ 427834 323952     1562.0000   237     1713.0000     1355.4791 89100291   20.87%
+Elapsed time = 5893.07 sec. (3473699.49 ticks, tree = 998.14 MB, solutions = 122)
+ 428111 323612     1657.0000   249     1713.0000     1355.4944 88972258   20.87%
+ 428345 324010     1631.0000   208     1713.0000     1355.4944 89116386   20.87%
+ 428467 325210     1507.8801   319     1713.0000     1355.4944 89483983   20.87%
+ 428570 324833     1572.3800   272     1713.0000     1355.4944 89365329   20.87%
+ 428707 325382     1531.0411   327     1713.0000     1355.4944 89540282   20.87%
+ 428966 325525     1582.0000   251     1713.0000     1355.5244 89592561   20.87%
+ 429337 325357     1625.5443   264     1713.0000     1355.5244 89532552   20.87%
+ 429676 325493     1434.0664   323     1713.0000     1355.5244 89589417   20.87%
+ 430041 325630     1567.0664   314     1713.0000     1355.6018 89621409   20.86%
+ 430388 326485     1505.3997   385     1713.0000     1355.6098 89979740   20.86%
+Elapsed time = 5962.73 sec. (3511900.07 ticks, tree = 1007.67 MB, solutions = 122)
+ 430711 325950     1536.2171   265     1713.0000     1355.6098 89744830   20.86%
+ 431053 326554     1587.3271   254     1713.0000     1355.6261 90011293   20.86%
+ 431357 326473     1355.6964   428     1713.0000     1355.6426 89970389   20.86%
+ 431699 327398     1616.0000   258     1713.0000     1355.6426 90395140   20.86%
+ 432054 327432     1549.0000   251     1713.0000     1355.6426 90411365   20.86%
+ 432326 327619     1645.0000   198     1713.0000     1355.6426 90474156   20.86%
+ 432504 328056     1482.3830   303     1713.0000     1355.6426 90677127   20.86%
+ 432635 328421     1410.0520   335     1713.0000     1355.6554 90853212   20.86%
+ 432773 328726     1447.0000   328     1713.0000     1355.6964 90974785   20.86%
+ 432948 328880     1693.0000   208     1713.0000     1355.6964 91029480   20.86%
+Elapsed time = 6034.70 sec. (3550246.93 ticks, tree = 1019.27 MB, solutions = 122)
+ 433202 329030     1550.2295   290     1713.0000     1355.7147 91083916   20.86%
+ 433539 328973     1658.0000   226     1713.0000     1355.7147 91071575   20.86%
+ 433901 329093     1471.3924   338     1713.0000     1355.7147 91116898   20.86%
+ 434238 329144     1596.0000   266     1713.0000     1355.7801 91131156   20.85%
+ 434633 329875     1571.0000   277     1713.0000     1355.7801 91364851   20.85%
+ 434987 330054     1512.6751   313     1713.0000     1355.7801 91432015   20.85%
+ 435309 330454     1563.0000   310     1713.0000     1355.8278 91598217   20.85%
+ 435642 330341     1693.0000   211     1713.0000     1355.8278 91553521   20.85%
+ 435994 330687     1667.0000   257     1713.0000     1355.8278 91667536   20.85%
+ 437531 331997     1533.3148   345     1713.0000     1355.8703 92131284   20.85%
+Elapsed time = 6130.63 sec. (3599889.68 ticks, tree = 1029.81 MB, solutions = 122)
+ 438418 332694     1505.5527   264     1713.0000     1355.9156 92405824   20.85%
+ 439354 333906     1616.0000   232     1713.0000     1355.9624 92867004   20.84%
+ 440875 334565     1581.0000   260     1713.0000     1356.0000 93122641   20.84%
+ 442437 336295     1592.4413   280     1713.0000     1356.0000 93777132   20.84%
+ 443246 337464        cutoff           1713.0000     1356.0000 94148846   20.84%
+ 444036 338077     1635.0000   237     1713.0000     1356.0000 94416792   20.84%
+ 445435 338947     1446.4652   365     1713.0000     1356.0000 94737771   20.84%
+ 446845 339593     1585.0000   307     1713.0000     1356.0714 95008320   20.84%
+ 448247 341069     1481.4058   346     1713.0000     1356.1552 95547264   20.83%
+ 448912 342537     1500.4915   346     1713.0000     1356.2286 96046325   20.83%
+Elapsed time = 6412.29 sec. (3752564.07 ticks, tree = 1065.40 MB, solutions = 122)
+ 449997 342774     1486.5943   312     1713.0000     1356.3580 96162149   20.82%
+ 451263 343523     1559.3069   309     1713.0000     1356.4938 96435448   20.81%
+ 452473 344951     1625.8919   234     1713.0000     1356.5133 97013385   20.81%
+ 453395 345728        cutoff           1713.0000     1356.6107 97321065   20.80%
+ 454077 346541     1612.3646   250     1713.0000     1356.7261 97644798   20.80%
+ 455333 347090     1611.0000   259     1713.0000     1356.7311 97844419   20.80%
+ 456522 348154     1413.0000   369     1713.0000     1356.7311 98276500   20.80%
+ 457517 349392     1686.0000   210     1713.0000     1356.7311 98747745   20.80%
+ 458109 350080     1529.0000   275     1713.0000     1356.7311 99049221   20.80%
+ 458931 350763     1438.8839   346     1713.0000     1356.7311 99274406   20.80%
+Elapsed time = 6691.34 sec. (3905211.45 ticks, tree = 1093.36 MB, solutions = 122)
+ 459976 351763     1419.7311   431     1713.0000     1356.7311 99648639   20.80%
+ 461181 351981     1590.0000   287     1713.0000     1356.7311 99769182   20.80%
+ 462244 353390     1475.7725   306     1713.0000     1356.7311 1.00e+08   20.80%
+ 462898 353899        cutoff           1713.0000     1356.7311 1.00e+08   20.80%
+ 463794 354700     1538.0000   276     1713.0000     1356.7311 1.01e+08   20.80%
+ 464819 355358     1509.3768   333     1713.0000     1356.7340 1.01e+08   20.80%
+ 465715 356489     1657.0000   172     1713.0000     1356.8292 1.02e+08   20.79%
+*465738+356099                         1712.0000     1356.8292            20.75%
+New incumbent written to file 'solucoes/t_lazy_desig_triang_ID028M020J020_ZintTrue_minla_fav_ub0/sol-00093.sol'.
+*466170+355944                         1711.0000     1356.8779            20.70%
+New incumbent written to file 'solucoes/t_lazy_desig_triang_ID028M020J020_ZintTrue_minla_fav_ub0/sol-00094.sol'.
+*466356+355408                         1710.0000     1356.8889            20.65%
+New incumbent written to file 'solucoes/t_lazy_desig_triang_ID028M020J020_ZintTrue_minla_fav_ub0/sol-00095.sol'.
+*466356+355408                         1709.0000     1356.8889            20.60%
+New incumbent written to file 'solucoes/t_lazy_desig_triang_ID028M020J020_ZintTrue_minla_fav_ub0/sol-00096.sol'.
+*466363+355408                         1707.0000     1356.8889            20.51%
+New incumbent written to file 'solucoes/t_lazy_desig_triang_ID028M020J020_ZintTrue_minla_fav_ub0/sol-00097.sol'.
+*466363+355408                         1704.0000     1356.8889            20.37%
+New incumbent written to file 'solucoes/t_lazy_desig_triang_ID028M020J020_ZintTrue_minla_fav_ub0/sol-00098.sol'.
+ 466558 355590     1590.5217   237     1704.0000     1356.8889 1.02e+08   20.37%
+ 467180 350901     1386.6814   402     1704.0000     1356.9080 1.02e+08   20.37%
+*467399+350930                         1703.0000     1356.9080            20.32%
+New incumbent written to file 'solucoes/t_lazy_desig_triang_ID028M020J020_ZintTrue_minla_fav_ub0/sol-00099.sol'.
+*467399+350930                         1700.0000     1356.9080            20.18%
+New incumbent written to file 'solucoes/t_lazy_desig_triang_ID028M020J020_ZintTrue_minla_fav_ub0/sol-00100.sol'.
+ 468057 351086     1698.0000   194     1700.0000     1357.0000 1.02e+08   20.18%
+Elapsed time = 6962.11 sec. (4057929.24 ticks, tree = 1096.48 MB, solutions = 132)
+ 469129 349372     1655.0000   199     1700.0000     1357.0000 1.03e+08   20.18%
+ 470210 349527     1626.2244   204     1700.0000     1357.0000 1.03e+08   20.18%
+ 471327 350646     1576.0000   250     1700.0000     1357.0000 1.03e+08   20.18%
+ 471917 351978     1556.4286   291     1700.0000     1357.0000 1.04e+08   20.18%
+ 472793 352200        cutoff           1700.0000     1357.0076 1.04e+08   20.18%
+*473669+352326                         1699.0000     1357.0139            20.13%
+New incumbent written to file 'solucoes/t_lazy_desig_triang_ID028M020J020_ZintTrue_minla_fav_ub0/sol-00101.sol'.
+ 473846 352234     1540.5253   268     1699.0000     1357.0253 1.04e+08   20.13%
+*474188+352251                         1698.0000     1357.0312            20.08%
+New incumbent written to file 'solucoes/t_lazy_desig_triang_ID028M020J020_ZintTrue_minla_fav_ub0/sol-00102.sol'.
+*474192+352251                         1697.0000     1357.0312            20.03%
+New incumbent written to file 'solucoes/t_lazy_desig_triang_ID028M020J020_ZintTrue_minla_fav_ub0/sol-00103.sol'.
+ 474886 351581     1453.0000   407     1697.0000     1357.1266 1.05e+08   20.03%
+*475787+351934                         1696.0000     1357.1667            19.98%
+New incumbent written to file 'solucoes/t_lazy_desig_triang_ID028M020J020_ZintTrue_minla_fav_ub0/sol-00104.sol'.
+ 475788 351814     1367.3506   414     1696.0000     1357.1667 1.05e+08   19.98%
+
+GUB cover cuts applied:  107
+Cover cuts applied:  410
+Implied bound cuts applied:  1068
+Flow cuts applied:  336
+Mixed integer rounding cuts applied:  7487
+Lift and project cuts applied:  134
+Gomory fractional cuts applied:  172
+
+Root node processing (before b&c):
+  Real time             =    2.87 sec. (3390.73 ticks)
+Parallel b&c, 8 threads:
+  Real time             = 7197.14 sec. (4188887.35 ticks)
+  Sync time (average)   =  498.35 sec.
+  Wait time (average)   =    0.51 sec.
+                          ------------
+Total (root+branch&cut) = 7200.01 sec. (4192278.09 ticks)
